@@ -7,6 +7,8 @@
 \usepackage{amssymb} %Für mathematische Symbole
 \usepackage{graphicx} %Für Bilder
 
+\usepackage[absolute]{textpos}%Grafiken Positionieren
+
 \usepackage{import} %für .pdf_tex Grafiken
 \usepackage{color} %für .pdf_tex Grafiken
 \usepackage{transparent} %für .pdf_tex Grafiken
@@ -17,16 +19,11 @@
 
 \usepackage{hyperref} %Für Links wie z.B Abbildung X
 \hypersetup{
-hidelinks
+	hidelinks
 } %Um Link-Stile zu deaktivieren
 
 \usepackage{geometry} %Dokument Rand etc. einstellen
- \geometry{
- a4paper,
- total={170mm,257mm},
- left=20mm,
- top=20mm,
-}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 %\renewcommand{\familydefault}{\sfdefault} %sans-serif Schriftart
 \usepackage{lipsum}% für test Text
 
@@ -37,9 +34,11 @@ hidelinks
 \begin{document}
 
 \maketitle
-\begin{figure}[h!] 
-    \input{assets/main/Titel-1.path.pdf_tex}
-\end{figure}
+\begin{textblock}{210}(-1,4)
+	\begin{figure}[h!] 
+		\input{assets/main/Title-1.path.pdf_tex} %Grafik muss 220mm breit sein
+	\end{figure}
+\end{textblock}
 \newpage
 
 \tableofcontents
