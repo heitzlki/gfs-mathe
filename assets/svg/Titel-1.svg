@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
+   width="220mm"
    height="110mm"
-   viewBox="0 0 210 110"
+   viewBox="0 0 220 110"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
    sodipodi:docname="Titel-1.svg">
   <defs
      id="defs2" />
@@ -33,9 +33,9 @@
      inkscape:snap-page="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
-     inkscape:window-width="1920"
+     inkscape:window-width="1866"
      inkscape:window-height="1016"
-     inkscape:window-x="0"
+     inkscape:window-x="54"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
@@ -55,9 +55,9 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#cccccc;stroke:none;stroke-width:0.600001;stroke-linecap:round;stroke-linejoin:round"
+       style="fill:#cccccc;stroke:none;stroke-width:0.611263;stroke-linecap:round;stroke-linejoin:round"
        id="rect833"
-       width="211.96823"
+       width="220"
        height="110"
        x="0"
        y="0" />
