@@ -179,43 +179,70 @@ Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}
 
 \subsection{Beziehungen zwischen Sinus, Kosinus und Tangens}
 \paragraph{1.} 
-
+\newcommand{\smallImageSize}{130px} %Size for the Images saved in a variable
 \begin{figure}[h!]
   \centering
   \begin{subfigure}[b]{0.3\linewidth}
-	\def\svgwidth{100px}
+	\def\svgwidth{\smallImageSize}
     \input{assets/main/alpha0_90.path.pdf_tex}
-    \caption{0° < $\alpha$ < 90°}
+    \caption{$0° < \alpha < 90°$}
     \label{fig:sin_cos_einheitskreis}
   \end{subfigure}
   \begin{subfigure}[b]{0.3\linewidth}
-  \def\svgwidth{100px}
+  \def\svgwidth{\smallImageSize}
     \input{assets/main/alpha0_90.path.pdf_tex}
-	\caption{sin(0°) = 0, cos(0°) = 1}
+	\caption{$sin(0°) = 0, cos(0°) = 1$}
 	\label{fig:sin_null_cos_null_einheitskreis}
   \end{subfigure}
   \begin{subfigure}[b]{0.3\linewidth}
-  \def\svgwidth{100px}
+  \def\svgwidth{\smallImageSize}
     \input{assets/main/alpha0_90.path.pdf_tex}
-    \caption{sin(90°) = 1, cos(90°) = 1}
+    \caption{$sin(90°) = 1, cos(90°) = 1$}
     \label{fig:sin_neunzig_cos_neunzig_einheitskreis}
   \end{subfigure}
   \caption{Beziehung 1}
   \label{fig:beziehung_eins}
 \end{figure}
 
-\noindent Für 0° < $\alpha$ < 90° nimmt sin($\alpha$) mit wachsendem $\alpha$ zu und cos($\alpha$) ab. \\
-Einfach gesagt: Befindet sich $\alpha$ zwischen 0° und 90° wird bei vergrößern des Winkels $\alpha$ sin($\alpha$) größer und cos($\alpha$) kleiner(\autoref{fig:sin_cos_einheitskreis}).
-Für $\alpha$ = 0° und $\alpha$ = 90° legt man mithilfe der Position von P fest: \\
-sin(0°) = 0, cos(0°) = 1 (\autoref{fig:sin_null_cos_null_einheitskreis}), sin(90°) = 1, cos(90°) = 0 (\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
+\noindent Für $0° < \alpha < 90°$ nimmt $sin(\alpha)$ mit wachsendem $\alpha$ zu und $cos(\alpha)$ ab. \\
+Einfach gesagt: Befindet sich $\alpha$ zwischen $0° und 90°$ wird bei vergrößern des Winkels $\alpha$ $sin(\alpha)$ größer und $cos(\alpha)$ kleiner(\autoref{fig:sin_cos_einheitskreis}).
+Für $\alpha = 0°$ und $\alpha = 90°$ legt man mithilfe der Position von P fest: \\
+$sin(0°) = 0, cos(0°) = 1$ (\autoref{fig:sin_null_cos_null_einheitskreis}), $sin(90°) = 1, cos(90°) = 0$ (\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
 
-
-
-\paragraph{2.}
+\paragraph{2.} %Layout anpassen
+\begin{wrapfigure}[4]{r}{0.3\textwidth}
+	    \def\svgwidth{130px}
+    \input{assets/main/RadarLoesung.path.pdf_tex}
+    \caption{Einheitskreis Dreieck Satz des Pythagoras}
+  	\label{fig:beziehung_zwei}
+\end{wrapfigure}
+Wendet man auf das im Einheitskreis dargestellte Dreieck den Satz des Pythagoras an(\autoref{fig:beziehung_zwei}), so erhält man den für jede Winkelweite gültigen Zusammenhang \\
+$sin^2(\alpha) + cos^2(\alpha) = 1$.
 \paragraph{3.}
+\begin{wrapfigure}[5]{l}{0.3\textwidth}
+	\def\svgwidth{130px}
+    \input{assets/main/RadarLoesung.path.pdf_tex}
+    \caption{Einheitskreis Dreieck Satz des Pythagoras}
+  	\label{fig:beziehung_drei_vier}
+\end{wrapfigure}
+In \autoref{fig:beziehung_drei_vier} sieht man: \\
+$sin(90° - \alpha) = x = cos(\alpha)$ und \\
+$cos(90° - \alpha) = y = sin(\alpha)$
 \paragraph{4.}
+Ebenfalls in \autoref{fig:beziehung_drei_vier}:\\
+$tan(\alpha) = \frac{y}{x} = \frac{sin(\alpha)}{\cos(\alpha)}$.
+\vspace{90px}
 \subsection{Einheitskreis - Definition}
+\textbf{Definition:} Es gilt:
+\paragraph{}
+$sin^2(\alpha) + cos^2(\alpha) = 1$
+\paragraph{}
+$sin(90° - \alpha) = sin(\alpha)$
+\paragraph{}
+$tan(\alpha) = \frac{sin(\alpha)}{\cos(\alpha)}$,$\alpha \neq 90°$, weil: 
+$tan(90)=\frac{sin(90)}{cos(90)} = \frac{1}{0} = !$ und Ankathete unbekannt.
 \subsection{Einheitskreis - Aufgabe}
+
 
 \section{Mit dem Sinus modellieren}
 \subsection{Mit dem Sinus modellieren - Beispiel}
