@@ -22,6 +22,9 @@
 	hidelinks
 } %Um Link-Stile zu deaktivieren
 
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}  %Dokument Rand etc. einstellen
 %\renewcommand{\familydefault}{\sfdefault} %sans-serif Schriftart
 \title{Mit dem Sinus modellieren}
@@ -176,31 +179,35 @@ Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}
 
 \subsection{Beziehungen zwischen Sinus, Kosinus und Tangens}
 \paragraph{1.} 
-%\begin{multicols}{3}
-\begin{figure}[hb!]
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.3\linewidth}
 	\def\svgwidth{100px}
     \input{assets/main/alpha0_90.path.pdf_tex}
     \caption{0° < $\alpha$ < 90°}
-  	\label{fig:sin_cos_einheitskreis}
-\end{figure}
-\begin{figure}[hb!]
-	\def\svgwidth{100px}
+    \label{fig:sin_cos_einheitskreis}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\linewidth}
+  \def\svgwidth{100px}
     \input{assets/main/alpha0_90.path.pdf_tex}
-    \caption{sin(0°) = 0, cos(0°) = 1}
-  	\label{fig:sin_null_cos_null_einheitskreis}
-\end{figure}
-\begin{figure}[hb!]
-	\def\svgwidth{100px}
+	\caption{sin(0°) = 0, cos(0°) = 1}
+	\label{fig:sin_null_cos_null_einheitskreis}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\linewidth}
+  \def\svgwidth{100px}
     \input{assets/main/alpha0_90.path.pdf_tex}
     \caption{sin(90°) = 1, cos(90°) = 1}
-  	\label{fig:sin_neunzig_cos_neunzig_einheitskreis}
+    \label{fig:sin_neunzig_cos_neunzig_einheitskreis}
+  \end{subfigure}
+  \caption{Beziehung 1}
+  \label{fig:beziehung_eins}
 \end{figure}
-%\end{multicols}
 
-Für 0° < $\alpha$ < 90° nimmt sin($\alpha$) mit wachsendem $\alpha$ zu und cos($\alpha$) ab. \\
+\noindent Für 0° < $\alpha$ < 90° nimmt sin($\alpha$) mit wachsendem $\alpha$ zu und cos($\alpha$) ab. \\
 Einfach gesagt: Befindet sich $\alpha$ zwischen 0° und 90° wird bei vergrößern des Winkels $\alpha$ sin($\alpha$) größer und cos($\alpha$) kleiner(\autoref{fig:sin_cos_einheitskreis}).
 Für $\alpha$ = 0° und $\alpha$ = 90° legt man mithilfe der Position von P fest: \\
-sin(0°) = 0, cos(0°) = 1(\autoref{fig:sin_null_cos_null_einheitskreis}), sin(90°) = 1, cos(90°) = 0(\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
+sin(0°) = 0, cos(0°) = 1 (\autoref{fig:sin_null_cos_null_einheitskreis}), sin(90°) = 1, cos(90°) = 0 (\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
 
 
 
