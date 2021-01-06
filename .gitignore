@@ -5,3 +5,7 @@
 *.out
 *.synctex.gz
 *.toc
+*.path
+*.pdf_tex
+path/
+main/
