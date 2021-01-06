@@ -36,7 +36,7 @@
 \maketitle
 \begin{textblock}{210}(-1,4)
 	\begin{figure}[h!] 
-		\input{assets/main/Title.path.pdf_tex} %Grafik muss 220mm breit sein
+		\input{assets/main/title.path.pdf_tex} %Grafik muss 220mm breit sein
 	\end{figure}
 \end{textblock}
 \newpage
@@ -175,7 +175,6 @@ Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}
     \caption{Sinus und Kosinus am Einheitskreis}
   	\label{fig:sin_cos_einheitskreis}
 \end{figure}
-\newpage
 
 \subsection{Beziehungen zwischen Sinus, Kosinus und Tangens}
 \paragraph{1.} 
@@ -206,19 +205,30 @@ Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}
 
 \noindent Für $0° < \alpha < 90°$ nimmt $sin(\alpha)$ mit wachsendem $\alpha$ zu und $cos(\alpha)$ ab(\autoref{fig:0_alpha_90}). \\
 $sin(0°) = 0, cos(0°) = 1$ (\autoref{fig:sin_null_cos_null_einheitskreis}), $sin(90°) = 1, cos(90°) = 0$ (\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
+\newpage
+\paragraph{2.} 
+Wendet man auf das im Einheitskreis dargestellte Dreieck den Satz des Pythagoras an(\autoref{fig:einheitskreis_dreieck_pythagoras}), so erhält man den für jede Winkelweite gültigen Zusammenhang \\
+$sin^2(\alpha) + cos^2(\alpha) = 1$. \\
+Beispiel:
+\begin{align}
+	sin^2(\alpha) + cos^2(\alpha) &= 1 \tag{1} \\ 
+	(sin(45))^2 + (cos(45)^2) &= 1  \tag{2}\\
+	(\frac{\sqrt{2}}{2})^2 + (\frac{\sqrt{2}}{2})^2 &= 1 \tag{3}\\
+	\frac{\sqrt{2^2}}{2^2}) + \frac{\sqrt{2^2}}{2^2} &= 1 \tag{4}\\
+	\frac{2}{4} + \frac{2}{4} &= 1 \tag{5}\\
+	0,5 + 0,5 &= 1 \tag{6}
+\end{align}
 
-\paragraph{2.} %Layout anpassen
-\begin{wrapfigure}[4]{r}{0.3\textwidth}
-	\def\svgwidth{\smallImageSize}
-    \input{assets/main/radar_loesung.path.pdf_tex}
+\begin{figure}[hb!]
+	\center
+	\def\svgwidth{200px}
+    \input{assets/main/einheitskreis_dreieck_pythagoras.path.pdf_tex}
     \caption{Einheitskreis Dreieck Satz des Pythagoras}
   	\label{fig:einheitskreis_dreieck_pythagoras}
-\end{wrapfigure}
-Wendet man auf das im Einheitskreis dargestellte Dreieck den Satz des Pythagoras an(\autoref{fig:einheitskreis_dreieck_pythagoras}), so erhält man den für jede Winkelweite gültigen Zusammenhang \\
-$sin^2(\alpha) + cos^2(\alpha) = 1$.
+\end{figure}
 \paragraph{3.}
-\begin{wrapfigure}[5]{l}{0.3\textwidth}
-	\def\svgwidth{\smallImageSize}
+\begin{wrapfigure}[6]{r}{0.45\textwidth}
+	\def\svgwidth{200px}
     \input{assets/main/radar_loesung.path.pdf_tex}
     \caption{sin(90° - $\alpha$), cos(90° - $\alpha$)}
   	\label{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}
