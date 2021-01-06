@@ -36,7 +36,7 @@
 \maketitle
 \begin{textblock}{210}(-1,4)
 	\begin{figure}[h!] 
-		\input{assets/main/Titel-1.path.pdf_tex} %Grafik muss 220mm breit sein
+		\input{assets/main/Title.path.pdf_tex} %Grafik muss 220mm breit sein
 	\end{figure}
 \end{textblock}
 \newpage
@@ -51,7 +51,7 @@
 \begin{figure}[hb!]
     \centering
     \def\svgwidth{200px}
-    \input{assets/main/RechtwinkligesDreieck.path.pdf_tex}
+    \input{assets/main/rechtwinkliges_dreieck.path.pdf_tex}
     \caption{Rechtwinkliges Dreieck}
   	\label{fig:rechtwinkliges_dreieck}
 \end{figure}
@@ -71,9 +71,9 @@ den \textbf{Sinus von $\alpha$}
 \begin{figure}[hb!]
     \centering
     \def\svgwidth{200px}
-    \input{assets/main/Sinus.path.pdf_tex}
+    \input{assets/main/rechtwinkliges_dreieck_sinus.path.pdf_tex}
     \caption{Rechtwinkliges Dreieck}
-  	\label{fig:rechtwinkliges_dreieck}
+  	\label{fig:rechtwinkliges_dreieck_sinus}
 \end{figure}
 \newpage
 
@@ -83,7 +83,7 @@ den \textbf{Sinus von $\alpha$}
 \begin{figure}[hb!]
     \centering
     \def\svgwidth{300px}
-    \input{assets/main/MünsterRechnung.path.pdf_tex}
+    \input{assets/main/rechtwinkliges_dreieck_am_muenster.path.pdf_tex}
     \caption{Rechtwinkliges Dreieck am Münster}
   	\label{fig:rechtwinkliges_dreieck_am_muenster}
 \end{figure}
@@ -104,7 +104,7 @@ den \textbf{Sinus von $\alpha$}
 \begin{figure}[hb!]
     \centering
     \def\svgwidth{200px}
-    \input{assets/main//Sinus.path.pdf_tex}
+    \input{assets/main/rechtwinkliges_dreieck_sinus.path.pdf_tex}
     \caption{Rechtwinkliges Dreieck}
   	\label{fig:rechtwinkliges_dreieck_sinus}
 \end{figure}
@@ -116,7 +116,7 @@ den \textbf{Sinus von $\alpha$}
 \begin{figure}[hb!]
     \centering
     \def\svgwidth{200px}
-    \input{assets/main/Cosinus.path.pdf_tex}
+    \input{assets/main/rechtwinkliges_dreieck_cosinus.path.pdf_tex}
     \caption{Rechtwinkliges Dreieck}
   	\label{fig:rechtwinkliges_dreieck_cosinus}
 \end{figure}
@@ -128,7 +128,7 @@ den \textbf{Sinus von $\alpha$}
 \begin{figure}[hb!]
     \centering
     \def\svgwidth{200px}
-    \input{assets/main/Tangens.path.pdf_tex}
+    \input{assets/main/rechtwinkliges_dreieck_tangens.path.pdf_tex}
     \caption{Rechtwinkliges Dreieck}
   	\label{fig:rechtwinkliges_dreieck_tangens}
 \end{figure}
@@ -150,7 +150,7 @@ den \textbf{Sinus von $\alpha$}
 \textbf{Lösung:} 
 \begin{wrapfigure}[9]{r}{0.5\textwidth}
 	    \def\svgwidth{250px}
-    \input{assets/main/RadarLoesung.path.pdf_tex}
+    \input{assets/main/radar_loesung.path.pdf_tex}
     \caption{Radar Lösung}
   	\label{fig:radar_loesung}
 \end{wrapfigure}
@@ -171,7 +171,7 @@ Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}
 \begin{figure}[hb!]
 	\centering
     \def\svgwidth{250px}
-    \input{assets/main/Sinus_Kosinus_Einheitskreis.path.pdf_tex}
+    \input{assets/main/sin_cos_einheitskreis.path.pdf_tex}
     \caption{Sinus und Kosinus am Einheitskreis}
   	\label{fig:sin_cos_einheitskreis}
 \end{figure}
@@ -184,19 +184,19 @@ Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}
   \centering
   \begin{subfigure}[b]{0.3\linewidth}
 	\def\svgwidth{\smallImageSize}
-    \input{assets/main/alpha0_90.path.pdf_tex}
+    \input{assets/main/0_alpha_90.path.pdf_tex}
     \caption{$0° < \alpha < 90°$}
-    \label{fig:sin_cos_einheitskreis}
+    \label{fig:0_alpha_90}
   \end{subfigure}
   \begin{subfigure}[b]{0.3\linewidth}
   \def\svgwidth{\smallImageSize}
-    \input{assets/main/alpha0_90.path.pdf_tex}
+    \input{assets/main/sin_null_cos_null_einheitskreis.path.pdf_tex}
 	\caption{$sin(0°) = 0, cos(0°) = 1$}
 	\label{fig:sin_null_cos_null_einheitskreis}
   \end{subfigure}
   \begin{subfigure}[b]{0.3\linewidth}
   \def\svgwidth{\smallImageSize}
-    \input{assets/main/alpha0_90.path.pdf_tex}
+    \input{assets/main/sin_neunzig_cos_neunzig_einheitskreis.path.pdf_tex}
     \caption{$sin(90°) = 1, cos(90°) = 1$}
     \label{fig:sin_neunzig_cos_neunzig_einheitskreis}
   \end{subfigure}
@@ -204,34 +204,32 @@ Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}
   \label{fig:beziehung_eins}
 \end{figure}
 
-\noindent Für $0° < \alpha < 90°$ nimmt $sin(\alpha)$ mit wachsendem $\alpha$ zu und $cos(\alpha)$ ab. \\
-Einfach gesagt: Befindet sich $\alpha$ zwischen $0° und 90°$ wird bei vergrößern des Winkels $\alpha$ $sin(\alpha)$ größer und $cos(\alpha)$ kleiner(\autoref{fig:sin_cos_einheitskreis}).
-Für $\alpha = 0°$ und $\alpha = 90°$ legt man mithilfe der Position von P fest: \\
+\noindent Für $0° < \alpha < 90°$ nimmt $sin(\alpha)$ mit wachsendem $\alpha$ zu und $cos(\alpha)$ ab(\autoref{fig:0_alpha_90}). \\
 $sin(0°) = 0, cos(0°) = 1$ (\autoref{fig:sin_null_cos_null_einheitskreis}), $sin(90°) = 1, cos(90°) = 0$ (\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
 
 \paragraph{2.} %Layout anpassen
 \begin{wrapfigure}[4]{r}{0.3\textwidth}
-	    \def\svgwidth{130px}
-    \input{assets/main/RadarLoesung.path.pdf_tex}
+	\def\svgwidth{\smallImageSize}
+    \input{assets/main/radar_loesung.path.pdf_tex}
     \caption{Einheitskreis Dreieck Satz des Pythagoras}
-  	\label{fig:beziehung_zwei}
+  	\label{fig:einheitskreis_dreieck_pythagoras}
 \end{wrapfigure}
-Wendet man auf das im Einheitskreis dargestellte Dreieck den Satz des Pythagoras an(\autoref{fig:beziehung_zwei}), so erhält man den für jede Winkelweite gültigen Zusammenhang \\
+Wendet man auf das im Einheitskreis dargestellte Dreieck den Satz des Pythagoras an(\autoref{fig:einheitskreis_dreieck_pythagoras}), so erhält man den für jede Winkelweite gültigen Zusammenhang \\
 $sin^2(\alpha) + cos^2(\alpha) = 1$.
 \paragraph{3.}
 \begin{wrapfigure}[5]{l}{0.3\textwidth}
-	\def\svgwidth{130px}
-    \input{assets/main/RadarLoesung.path.pdf_tex}
-    \caption{Einheitskreis Dreieck Satz des Pythagoras}
-  	\label{fig:beziehung_drei_vier}
+	\def\svgwidth{\smallImageSize}
+    \input{assets/main/radar_loesung.path.pdf_tex}
+    \caption{sin(90° - $\alpha$), cos(90° - $\alpha$)}
+  	\label{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}
 \end{wrapfigure}
-In \autoref{fig:beziehung_drei_vier} sieht man: \\
+In \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha} sieht man: \\
 $sin(90° - \alpha) = x = cos(\alpha)$ und \\
 $cos(90° - \alpha) = y = sin(\alpha)$
 \paragraph{4.}
-Ebenfalls in \autoref{fig:beziehung_drei_vier}:\\
+Ebenfalls in \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}:\\
 $tan(\alpha) = \frac{y}{x} = \frac{sin(\alpha)}{\cos(\alpha)}$.
-\vspace{90px}
+\newpage
 \subsection{Einheitskreis - Definition}
 \textbf{Definition:} Es gilt:
 \paragraph{}
@@ -240,10 +238,10 @@ $sin^2(\alpha) + cos^2(\alpha) = 1$
 $sin(90° - \alpha) = sin(\alpha)$
 \paragraph{}
 $tan(\alpha) = \frac{sin(\alpha)}{\cos(\alpha)}$,$\alpha \neq 90°$, weil: 
-$tan(90)=\frac{sin(90)}{cos(90)} = \frac{1}{0} = !$ und Ankathete unbekannt.
+$tan(90)=\frac{sin(90)}{cos(90)} = \frac{1}{0} = !$.
 \subsection{Einheitskreis - Aufgabe}
 
-
+\newpage
 \section{Mit dem Sinus modellieren}
 \subsection{Mit dem Sinus modellieren - Beispiel}
 \subsection{Mit dem Sinus modellieren - Wertetabelle}
