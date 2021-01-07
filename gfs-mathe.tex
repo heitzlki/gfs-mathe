@@ -229,13 +229,18 @@ Beispiel:
 \paragraph{3.}
 \begin{wrapfigure}[6]{r}{0.45\textwidth}
 	\def\svgwidth{200px}
-    \input{assets/main/radar_loesung.path.pdf_tex}
+    \input{assets/main/sin_neunzig_minus_alpha_cos_neunzig_minus_alpha.path.pdf_tex}
     \caption{sin(90° - $\alpha$), cos(90° - $\alpha$)}
   	\label{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}
 \end{wrapfigure}
 In \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha} sieht man: \\
 $sin(90° - \alpha) = x = cos(\alpha)$ und \\
-$cos(90° - \alpha) = y = sin(\alpha)$
+$cos(90° - \alpha) = y = sin(\alpha)$ \\
+\textbf{Beispiel:}
+\begin{align}
+	sin(90° - \alpha) &= x &= cos(\alpha) \tag{1} \\
+	sin(90° - 30°) &=  \frac{\sqrt{3}}{2} &= cos(30°) \tag{2}  
+\end{align}
 \paragraph{4.}
 Ebenfalls in \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}:\\
 $tan(\alpha) = \frac{y}{x} = \frac{sin(\alpha)}{\cos(\alpha)}$.
@@ -247,9 +252,72 @@ $sin^2(\alpha) + cos^2(\alpha) = 1$
 \paragraph{}
 $sin(90° - \alpha) = sin(\alpha)$
 \paragraph{}
-$tan(\alpha) = \frac{sin(\alpha)}{\cos(\alpha)}$,$\alpha \neq 90°$, weil: 
+$tan(\alpha) = \frac{sin(\alpha)}{\cos(\alpha)}$, $\alpha \neq 90°$, weil: 
 $tan(90)=\frac{sin(90)}{cos(90)} = \frac{1}{0} = !$.
 \subsection{Einheitskreis - Aufgabe}
+\textbf{Aufgabe:}
+$sin(\alpha) = 0,6$. \\
+{\footnotesize
+\textbf{Bestimme:}
+\begin{multicols}{5}
+\textit{\textbf{a)}}
+\[
+    cos(\alpha)
+\]
+
+\textit{\textbf{b)}}
+\[
+    tan(\alpha)
+\]
+
+\textit{\textbf{c)}}
+\[
+    sin(90° - \alpha)
+\]
+
+\textit{\textbf{d)}}
+\[
+    cos(90° - \alpha)
+\]
+
+\textit{\textbf{e)}}
+\[
+    tan(90° - \alpha)
+\]
+\end{multicols}
+}
+\textbf{a) - Lösung:}
+\begin{align}
+	sin^2(\alpha) + cos^2(\alpha) &= 1 \tag{1} \\
+	0,6^2 + cos^2(\alpha) &= 1 &|-0,6^2 \tag{2} \\
+	cos^2(\alpha) &= 1 - 0,36 &|\sqrt{} \tag{3} \\
+	cos(\alpha) &= \sqrt{1 - 0,36}   \tag{4} \\
+	cos(\alpha) &= \sqrt{0,64}   \tag{5} \\
+	cos(\alpha) &= 0,8   \tag{6}
+\end{align}
+
+\textbf{b) - Lösung:}
+\begin{align}
+	tan(\alpha) &= \frac{sin(\alpha)}{cos(\alpha)} \tag{1} \\
+	tan(\alpha) &= \frac{0,6}{0,8} = \frac{6}{8} \tag{2} \\
+	tan(\alpha) &= \frac{3}{4} = 0,75 \tag{3}
+\end{align}
+
+\textbf{c) - Lösung:}
+\begin{align}
+	sin(90° - \alpha) &= cos(\alpha) = 0,8 \tag{1}
+\end{align}
+
+\textbf{d) - Lösung:}
+\begin{align}
+	cos(90° - \alpha) &= sin(\alpha) = 0,6 \tag{1}
+\end{align}
+
+\textbf{e) - Lösung:}
+\begin{align}
+	tan(90° - \alpha) &= \frac{sin(90° - \alpha)}{cos(90° - \alpha)} = \frac{0,8}{0,6} \tag{1} \\
+	tan(90° - \alpha) &= \frac{8}{6} = \frac{4}{3} \tag{2}
+\end{align}
 
 \newpage
 \section{Mit dem Sinus modellieren}
