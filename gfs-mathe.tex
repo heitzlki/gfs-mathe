@@ -16,11 +16,14 @@
 \usepackage{wrapfig} %Um Text neben Bildern zu positionieren
 
 \usepackage{multicol} %Für mehr-spaltigen Text
+\usepackage{xcolor,colortbl} %Für z.B Farben in Tabellen
 
 \usepackage{hyperref} %Für Links wie z.B Abbildung X
 \hypersetup{
 	hidelinks
 } %Um Link-Stile zu deaktivieren
+
+\usepackage{adjustbox}%Um Elemente auf Seitenlänge zu bringen
 
 \usepackage{subcaption}
 \captionsetup{compatibility=false}
@@ -322,16 +325,84 @@ $sin(\alpha) = 0,6$. \\
 \newpage
 \section{Mit dem Sinus modellieren}
 \subsection{Mit dem Sinus modellieren - Beispiel}
-\subsection{Mit dem Sinus modellieren - Wertetabelle}
-\subsection{Mit dem Sinus modellieren - Zeichnung}
+\textbf{Aufgabe:}
+\begin{figure}[hb!]
+	\center
+	\def\svgwidth{300px}
+    \input{assets/main/sin_neunzig_minus_alpha_cos_neunzig_minus_alpha.path.pdf_tex}
+    \caption{Schaufelraddampfer}
+  	\label{fig:schaufelraddamper}
+\end{figure}
+\\Bei einem Shaufelraddampfer dreht sich das Rad mit einem Durchmsser von 2 Meter einmal vollständig in 60 Sekunden(\autoref{fig:schaufelraddamper}). In welcher Höhe über dem Wasserspiegel liegt der rot markierte Punkt A?\\
+Erstelle eine Wertetabelle in 5 Sekunden Schritten.\\
+\textbf{Lösung:}\\
 
-\subsection{Mit dem Sinus modellieren - Winkel $\alpha$ mit 0°...<}
-\subsection{Mit dem Sinus modellieren - Zeichnung}
-\subsection{Mit dem Sinus modellieren - Zeichnung}
+\definecolor{MyGreen}{rgb}{0,1,0.549}%{0.9,0.9,1}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{ |>{\columncolor{MyGreen}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
+\hline
+\rowcolor{MyGreen}
+Zeit t (in s) & 0 & 5 & 10 & 15 & 20 & 25 & 30 & 35 & 40 & 45 & 50 & 55 & 60 \\
+\hline
+Winkel $\alpha$ & 0° & 30° & 60° & 90° & 120° & 150° & 180° & 210° & 240° & 270° & 300° & 330° & 360° \\
+\hline
+Höhe h (in m) & 0 & 0,5 & 0,87 & 1 & 0,87 & 0,5 & 0 & -0,5 & -0,87 & -1 & -0,87 & -0,5 & 0 \\
+\hline
+\end{tabular}
+\end{adjustbox}
 
+\subsection{Winkel $\alpha$ mit 0° $\leq$ $\alpha$ $\leq$ 90°}
+Am Einheitskreis entspricht sin($\alpha$) der y-Koordinate des Punktes P(\autoref{fig:0_alpha_90_360}).\\
+\textbf{$sin(40°) \approx 0,64$}
+\begin{figure}[hb!]
+	\center
+	\def\svgwidth{200px}
+    \input{assets/main/sin_neunzig_minus_alpha_cos_neunzig_minus_alpha.path.pdf_tex}
+    \caption{Winkel $\alpha$ mit 0° $\leq$ $\alpha$ $\leq$ 90°}
+  	\label{fig:0_alpha_90_360}
+\end{figure}
+\newpage
+\subsection{Erweiterter Winkel $\alpha$ mit 90° $<$ $\alpha$ $\leq$ 360°}
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.5\linewidth}
+	\def\svgwidth{220px}
+    \input{assets/main/0_alpha_90.path.pdf_tex}
+    \caption{$sin(120°) \approx 0,87$}
+    \label{fig:sin_hundertzwanzig_nullsiebenacht}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.35\linewidth}
+  \def\svgwidth{220px}
+    \input{assets/main/sin_null_cos_null_einheitskreis.path.pdf_tex}
+	\caption{$sin(310°) \approx -0,77$}
+	\label{fig:sin_dreihunderzehn_minusnullsiebensieben}
+  \end{subfigure}
+  \caption{Erweiterter Winkel $\alpha$ mit 90° $<$ $\alpha$ $\leq$ 360°}
+  \label{fig:erweiterter_winkel_alpha}
+\end{figure}
+
+\noindent Wird $\alpha$ über 90° vergrößert, wird der Sinuswert von $\alpha$ ebenso als y-Koordinate des Punktes P festgelegt(\autoref{fig:erweiterter_winkel_alpha}).
+\subsection{Funktion f mit f($\alpha$)}
+Ordnet man jedem Winkel $\alpha$ mit 0° $\leq \alpha \leq$ 360° seinen Sinuswert zu, so erhält man eine Funktion f mit f($\alpha$) = sin($\alpha$).\\
+Man kann mithilfe des Graphen von f(\autoref{fig:sinuswelle}) zu gegebenem Winkel den Sinuswert näherungsweise ablesen oder näherungsweise Winkel mit vorgegebenem Sinuswert ermitteln.
+\begin{figure}[hb!]
+	\center
+	\def\svgwidth{100px}
+    \input{assets/main/sin_null_cos_null_einheitskreis.path.pdf_tex}
+	\caption{$f(\alpha) = sin(\alpha)$}
+	\label{fig:sinuswelle}
+\end{figure}
 \subsection{Sinusfunktion im Gradmaß - Definition}
+Die Funktion f mit f($\alpha$) = sin($\alpha$) heißt \textbf{Sinusfunktion im Gradmaß}.
+\newpage
 \subsection{Mit dem Sinus modellieren - Aufgabe}
+Sinusfunktion im Gradmaß: sinus berechnen und werte einzeichen...
 
+\subsection{Mit dem Sinus modellieren - Aufgabe - Einen Zeitlichen Vorgang modellieren}
+\subsection{Mit dem Sinus modellieren - Aufgabe}
+S.103
+
+\newpage
 \section{Zusammenfassung}
 
 \section{Anwendungsbeispiele / Weiter Anwendungen}
