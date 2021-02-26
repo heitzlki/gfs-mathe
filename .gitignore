@@ -1,8 +1,15 @@
-*.pdf_tex
+# LaTex
 *.aux
 *.log
 *.out
 *.synctex.gz
 *.toc
+
+# Path
 *.path*
+
+# PDFTex
 *.pdf_tex
+
+# Javascript
+node_modules
