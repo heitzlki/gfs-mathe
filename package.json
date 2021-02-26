@@ -1,0 +1,26 @@
+{
+  "name": "gfs-mathe",
+  "version": "1.0.0",
+  "main": "utils/index.ts",
+  "repository": "https://github.com/heitzlki/gfs-mathe",
+  "author": "heitzlki",
+  "license": "MIT",
+  "scripts": {
+    "gen-handout": "ts-node utils/genHandout.ts",
+    "start-texmaker": "ts-node utils/startTexmaker.ts",
+    "gen-svg": "ts-node utils/genSvgs.ts",
+    "clean": "ts-node utils/clean.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "glob": "^7.1.6",
+    "path": "^0.12.7",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/glob": "^7.1.3",
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  }
+}
