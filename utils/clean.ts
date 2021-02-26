@@ -1,0 +1,24 @@
+import * as path from 'path';
+import * as glob from 'glob';
+import * as chalk from 'chalk';
+import { deleteFile } from './modules/deleteFile';
+
+(function clean() {
+  const argv = process.argv.map((val) => val);
+  if (argv[2]) {
+    const pathToFile = path.join(__dirname, '../src/handout/');
+    const files = glob.sync(
+      `${pathToFile}/**/*${argv[2]}.+(pdf_tex|pdf|path)*`,
+    );
+    if (files.length == 0) {
+      console.log(`${chalk.red(`[/] Error: ${argv[2]} file not aviable`)}`);
+    } else {
+      deleteFile(files.toString());
+    }
+  } else {
+    const pathToFile = path.join(__dirname, '../src/handout/');
+    glob
+      .sync(`${pathToFile}/**/*.+(pdf_tex|pdf|path)*`)
+      .map((file) => deleteFile(file));
+  }
+})();
