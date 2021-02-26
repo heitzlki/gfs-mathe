@@ -1,101 +1,25 @@
-## Utils
+# Utils
 
-### Clean
+- [Clean](#clean)
+- [Generate](#gen)
 
-> Unabhängig von alle `clean` befehlen sollten Dateien mit folgenden Endungen `.svg, .tex, .frames.svg, .ts, .config.json` `nicht gelöscht werden`
+## Clean
 
-#### Alles
+| Befehl              | Option(en) | Beschreibung                                        | Besipiel                  |
+| ------------------- | ---------- | --------------------------------------------------- | ------------------------- |
+| `yarn clean-all`    |            | _löscht_ _gen-svg_ und _gen-tex_ generierte Dateien |                           |
+| `yarn clean-tex`    | Datei      | _löscht_ _gen-tex_ generierte Dateien               | `yarn clean-tex vortrag`  |
+| `yarn clean-svg`    | Datei      | _löscht_ _gen-svg_ generierte Dateien               | `yarn clean-svg sinus`    |
+| `yarn clean-path`   | Datei      | _löscht_ _gen-path_ generierte Dateien              | `yarn clean-path sinus`   |
+| `yarn clean-frames` | Datei      | _löscht_ _gen-frames_ generierte Dateien            | `yarn clean-frames sinus` |
 
-> Dieser Befehl `löscht` Dateien, die durch `Grafiken`(.path, .frame, .pdf_tex, ect.) und `LaTex`(.aux, .log, .out, .synctex.gz, .toc, etc.) generiert wurden
+## Generate
 
-```
-yarn clean-all
-```
-
-#### LaTex
-
-> Dieser Befehl `löscht` Dateien, die durch `LaTex` generierten wurden(.aux, .log, .out, .synctex.gz, .toc, etc.)
-
-```
-yarn clean-tex <name>
-```
-
-#### Grafiken
-
-> Dieser Befehl `löscht` Dateien, die durch `Grafiken` generierten wurden(`*.path.*`, `*.pdf_tex*` )
-
-```
-yarn clean-svg <name>
-```
-
-#### Pfade
-
-> Dieser Befehl `löscht` Dateien, die durch `Pfad` Grafiken generierten wurden(`*.path.*`)
-
-```
-yarn clean-path <name>
-```
-
-#### Frames
-
-> Dieser Befehl `löscht` Dateien, die durch `inkscape-beamer-frames` Grafiken generierten wurden(`*.frame.*`)
-
-```
-yarn clean-svg <name>
-```
-
-### Generate
-
-#### Alles
-
-> Dieser Befehl `generiert` alle `LaTex` und `Grafik` Dateien
-
-```
-yarn gen-all
-```
-
-#### LaTex
-
-> Dieser Befehl `generiert` alle `LaTex` Dateien
-
-```
-yarn gen-tex <name>
-```
-
-#### Grafiken
-
-> Dieser Befehl `generiert` alle `Grafik` Dateien
-
-```
-yarn gen-svg <name>
-```
-
-#### Pfade
-
-> Dieser Befehl `generiert` alle für alle `Vectorgrafiken`(`.svg`) `Pfad`(`.path`) Dateien
-
-```
-yarn gen-path <name>
-```
-
-#### LaTex-PDFs
-
-> Dieser Befehl `generiert` alle `LaTex-PDFs` Dateien
-
-```
-yarn gen-pdf-pdf-tex <name>
-```
-
-### inkscape-beamer-frames
-
-#### New
-
-```
-yarn gen-frames-new <name> <frames>
-```
-
-#### Generate
-
-```
-yarn gen-frames <name>
-```
+| Befehl                | Option(en)     | Beschreibung                                                      | Besipiel                      |
+| --------------------- | -------------- | ----------------------------------------------------------------- | ----------------------------- |
+| `yarn gen-all`        |                | _generiert_ _gen-svg_, _gen-tex_ und _gen-frames_ Dateien         |                               |
+| `yarn gen-tex`        | Datei          | _generiert_ _LaTex_ Dateien                                       | `yarn gen-tex vortrag`        |
+| `yarn gen-svg`        | Datei          | _generiert_ _Vectorgrafik_ Dateien                                | `yarn gen-svg sinus`          |
+| `yarn gen-path`       | Datei          | _generiert_ _.path_ Dateien                                       | `yarn gen-path sinus`         |
+| `yarn gen-frames`     | Datei          | _generiert_ _.frame.X.svg_ mit _.frames_ und _.config.json_ Datei | `yarn gen-frames sinus`       |
+| `yarn gen-frames-new` | Datei & Frames | _generiert_ _.frames_ und _.config.json_ Datei                    | `yarn gen-frames-new sinus 7` |
