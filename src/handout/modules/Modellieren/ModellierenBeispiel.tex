@@ -1,0 +1,33 @@
+\documentclass{standalone}
+\begin{document}
+
+\subsection{Mit dem Sinus modellieren - Beispiel}
+\textbf{Aufgabe:}
+\\Bei einem Shaufelraddampfer dreht sich das Rad mit einem Durchmsser von 2 Meter einmal vollst{"a}ndig in 60 Sekunden(\autoref{fig:schaufelraddamper}). In welcher H{"o}he {"u}ber dem Wasserspiegel liegt der rot markierte Punkt A?\\
+Erstelle eine Wertetabelle in 5 Sekunden Schritten.\\
+
+\begin{figure}[hb!]
+  \center
+  \def\svgwidth{300px}
+  \input{tmp/schaufelraddamper.path.svg.pdf_tex}
+  \caption{Schaufelraddampfer}
+  \label{fig:schaufelraddamper}
+\end{figure}
+
+\noindent\textbf{L{"o}sung:}\\
+
+\definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
+\begin{adjustbox}{width=\textwidth}
+  \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
+    \hline
+    \rowcolor{MyGrey}
+    Zeit t (in s)   & 0         & 5          & 10         & 15         & 20          & 25          & 30          & 35          & 40          & 45          & 50          & 55          & 60          \\
+    \hline
+    Winkel $\alpha$ & 0$^\circ$ & 30$^\circ$ & 60$^\circ$ & 90$^\circ$ & 120$^\circ$ & 150$^\circ$ & 180$^\circ$ & 210$^\circ$ & 240$^\circ$ & 270$^\circ$ & 300$^\circ$ & 330$^\circ$ & 360$^\circ$ \\
+    \hline
+    Höhe h (in m)   & 0         & 0,5        & 0,87       & 1          & 0,87        & 0,5         & 0           & -0,5        & -0,87       & -1          & -0,87       & -0,5        & 0           \\
+    \hline
+  \end{tabular}
+\end{adjustbox}
+
+\end{document}
