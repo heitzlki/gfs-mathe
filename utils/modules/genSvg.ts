@@ -9,12 +9,11 @@ export function genSvg(file: string) {
 
     let pathFile = fileName.replace('.svg', '.path.svg');
     let pathPdfTexFile = fileName.replace('.svg', '.path.svg.pdf');
-    let pathPath = generalPath + 'path/';
-    let pdfTexPath = generalPath + 'pdf_tex/';
+    let tmp = generalPath + 'tmp/';
 
     try {
       execSync(
-        `inkscape -C -T --export-filename=${pathPath + pathFile} ${file}`,
+        `inkscape -C -T --export-filename=${tmp + pathFile} ${file}`,
       ).toString();
     } catch (error) {
       console.clear();
@@ -28,8 +27,8 @@ export function genSvg(file: string) {
     try {
       execSync(
         `inkscape -C --export-latex --export-type="pdf" --export-filename=${
-          pdfTexPath + pathPdfTexFile
-        } ${pathPath + pathFile}`,
+          tmp + pathPdfTexFile
+        } ${tmp + pathFile}`,
       ).toString();
     } catch (error) {
       console.clear();

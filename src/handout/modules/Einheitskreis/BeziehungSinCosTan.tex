@@ -1,0 +1,86 @@
+\documentclass{standalone}
+
+\begin{document}
+
+\subsection{Beziehungen zwischen Sinus, Kosinus und Tangens}
+
+\paragraph{1.}
+
+\noindent F{"u}r $0^\circ < \alpha < 90^\circ$ nimmt $sin(\alpha)$ mit wachsendem $\alpha$ zu und $cos(\alpha)$ ab(\autoref{fig:0_alpha_90}). \\
+$sin(0^\circ) = 0$, $cos(0^\circ) = 1$ (\autoref{fig:sin_null_cos_null_einheitskreis}), $sin(90^\circ) = 1$, $cos(90^\circ) = 0$ (\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
+
+\newcommand{\smallImageSize}{130px} %Size for the Images saved in a variable
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[b]{0.3\linewidth}
+		\def\svgwidth{\smallImageSize}
+		\input{tmp/0_alpha_90.path.svg.pdf_tex}
+		\caption{$0^\circ < \alpha < 90^\circ$}
+		\label{fig:0_alpha_90}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.3\linewidth}
+		\def\svgwidth{\smallImageSize}
+		\input{tmp/sin_null_cos_null_einheitskreis.path.svg.pdf_tex}
+		\caption{$sin(0^\circ) = 0$, $cos(0^\circ) = 1$}
+		\label{fig:sin_null_cos_null_einheitskreis}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.3\linewidth}
+		\def\svgwidth{\smallImageSize}
+		\input{tmp/sin_neunzig_cos_neunzig_einheitskreis.path.svg.pdf_tex}
+		\caption{$sin(90^\circ) = 1$, $cos(90^\circ) = 1$}
+		\label{fig:sin_neunzig_cos_neunzig_einheitskreis}
+	\end{subfigure}
+	\caption{Beziehung 1}
+	\label{fig:beziehung_eins}
+\end{figure}
+
+\newpage
+
+\paragraph{2.}
+
+Wendet man auf das im Einheitskreis dargestellte Dreieck den Satz des Pythagoras an(\autoref{fig:einheitskreis_dreieck_pythagoras}), so erh{"a}lt man den f{"u}r jede Winkelweite g{"u}ltigen Zusammenhang \\
+$sin^2(\alpha) + cos^2(\alpha) = 1$. \\
+Beispiel:
+
+\begin{align}
+	sin^2(\alpha) + cos^2(\alpha)                   & = 1 \tag{1}  \\
+	(sin(45))^2 + (cos(45))^2                       & = 1  \tag{2} \\
+	(\frac{\sqrt{2}}{2})^2 + (\frac{\sqrt{2}}{2})^2 & = 1 \tag{3}  \\
+	\frac{\sqrt{2^2}}{2^2} + \frac{\sqrt{2^2}}{2^2} & = 1 \tag{4}  \\
+	\frac{2}{4} + \frac{2}{4}                       & = 1 \tag{5}  \\
+	\frac{1}{2} + \frac{1}{2}                       & = 1 \tag{6}  \\
+	0,5 + 0,5                                       & = 1 \tag{7}
+\end{align}
+
+\begin{figure}[hb!]
+	\centering
+	\def\svgwidth{200px}
+	\input{tmp/einheitskreis_dreieck_pythagoras.path.svg.pdf_tex}
+	\caption{Einheitskreis Dreieck Satz des Pythagoras}
+	\label{fig:einheitskreis_dreieck_pythagoras}
+\end{figure}
+
+\paragraph{3.}
+
+\begin{wrapfigure}[6]{r}{0.45\textwidth}
+	\def\svgwidth{200px}
+	\input{tmp/sin_neunzig_minus_alpha_cos_neunzig_minus_alpha.path.svg.pdf_tex}
+	\caption{sin(90$^\circ$ - $\alpha$); cos(90$^\circ$ - $\alpha$)}
+	\label{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}
+\end{wrapfigure}
+
+In \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha} sieht man: \\
+$sin(90^\circ - \alpha) = x = cos(\alpha)$ und \\
+$cos(90^\circ - \alpha) = y = sin(\alpha)$ \\
+\textbf{Beispiel:}
+\begin{align}
+	sin(90^\circ - \alpha)   & = x                   & = cos(\alpha) \tag{1}   \\
+	sin(90^\circ - 30^\circ) & =  \frac{\sqrt{3}}{2} & = cos(30^\circ) \tag{2}
+\end{align}
+
+\paragraph{4.}
+
+Ebenfalls in \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}:\\
+$tan(\alpha) = \frac{y}{x} = \frac{sin(\alpha)}{\cos(\alpha)}$.
+
+\end{document}

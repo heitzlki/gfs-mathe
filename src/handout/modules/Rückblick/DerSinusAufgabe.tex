@@ -1,0 +1,25 @@
+\documentclass{standalone}
+
+\begin{document}
+
+\subsection{Der Sinus - Beispiel Aufgabe}
+\textbf{Gegenkathete von $\alpha$ mithilfe des Sinus berechnen}: \\
+\textbf{Aufgabe:} Berechne die H{"o}he des Freiburger M{"u}nsters. Das rechtwinklige Dreieck in \autoref{fig:rechtwinkliges_dreieck_am_muenster} besitzt einen rechten Winkel(90$^\circ$), die Hyptenuse 164,05 Meter und die Winkelweite des Winkels $\alpha$ mit 45$^\circ$. Berechne die Gegenkathete von $\alpha$ namen's x.\\
+\begin{figure}[hb!]
+  \centeringf
+  \def\svgwidth{300px}
+  \input{tmp/rechtwinkliges_dreieck_am_muenster.path.svg.pdf_tex}
+  \caption{Rechtwinkliges Dreieck am Münster}
+  \label{fig:rechtwinkliges_dreieck_am_muenster}
+\end{figure}
+
+\noindent\textbf{Rechnung:}
+\begin{align}
+  \sin(\alpha)            & = \dfrac{\text{Gegenkathete von $\alpha$}}{\text{Hypothenuse}} \tag{1}                  \\
+  \sin(45°)               & = \dfrac{x}{164,05m}                                                   & |\cdot 164,05m \\
+  \sin(45°) \cdot 164,05m & = x                                                                                     \\
+  x                       & \cong 116m
+\end{align}
+\textbf{Antwort:} Die Gegenkathete von $\alpha$ betr{"a}gt etwa 116 Meter, somit ist das M{"u}nster auch etwa 116 Meter gro{\ss}.
+
+\end{document}

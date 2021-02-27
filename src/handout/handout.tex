@@ -6,13 +6,14 @@
 \usepackage{amsfonts} %Für Text in Formeln
 \usepackage{amssymb} %Für mathematische Symbole
 \usepackage{graphicx} %Für Bilder
+\UseRawInputEncoding
 
 \usepackage[absolute]{textpos}%Grafiken Positionieren
 
 \usepackage{import} %für .pdf_tex Grafiken
 \usepackage{color} %für .pdf_tex Grafiken
 \usepackage{transparent} %für .pdf_tex Grafiken
-\graphicspath{{assets/main/}} %für .pdf_tex Grafiken
+\graphicspath{{tmp/}} %für .pdf_tex Grafiken
 \usepackage{wrapfig} %Um Text neben Bildern zu positionieren
 
 \usepackage{multicol} %Für mehr-spaltigen Text
@@ -24,7 +25,8 @@
 } %Um Link-Stile zu deaktivieren
 
 \usepackage{adjustbox}%Um Elemente auf Seitenlänge zu bringen
-
+\usepackage{standalone}%Um das Dokument aufzuteilen
+\usepackage{ marvosym } %Füt lightning symbol
 \usepackage{subcaption}
 \captionsetup{compatibility=false}
 
@@ -37,351 +39,17 @@
 \begin{document}
 
 \maketitle
-%\begin{textblock}{210}(-1,4)
-%	\begin{figure}[h!]
-%		\input{./title.path.pdf_tex} %Grafik muss 220mm breit sein
-%	\end{figure}
-%\end{textblock}
+\begin{textblock}{210}(-1,4)
+	\begin{figure}[h!]
+		\input{tmp/title.path.svg.pdf_tex} %Grafik muss 220mm breit sein
+	\end{figure}
+\end{textblock}
 \newpage
 
 \tableofcontents
-
+\newpage
 \input{modules/Rückblick/Rückblick.tex}
+\input{modules/Einheitskreis/Enheitskreis.tex}
 
-\section{Einheitskreis}
-\subsection{Einheitskreis - Beispiel}
-
-\textbf{Aufgaben-Text:} Auf einem kresiförmigen Koordinatensystem eines Radarschirms \autoref{fig:radar} wird die Lage von zwei Schiffen durch die Entfernung zum Hafen(0) und durch den Kurs gegenüber der x-Achse beschrieben. \\
-\textbf{Aufgabe:} Ein Schiff \textbf{A} ist mit dem Kurs \textbf{30°} gegenüber der x-Achse \textbf{einen Kilometer} weit gefahren. Welche Koordinaten im \textbf{x-y-Kooradinatensystem} hat es? Welche Koordinaten hat das Schiff \textbf{B}, das mit dem Kurs \textbf{75°} textbf{einen Kilometer} weit gefahren ist?
-\begin{figure}[hb!]
-	\centering
-	\def\svgwidth{250px}
-	\input{assets/main/Radar.path.pdf_tex}
-	\caption{Radar}
-	\label{fig:radar}
-\end{figure}
-\\
-\noindent
-\textbf{Lösung:}
-\begin{wrapfigure}[9]{r}{0.5\textwidth}
-	\def\svgwidth{250px}
-	\input{assets/main/radar_loesung.path.pdf_tex}
-	\caption{Radar Lösung}
-	\label{fig:radar_loesung}
-\end{wrapfigure}
-\\
-Das Schiff \textbf{A} mit dem Kurs \textbf{30°} befindet sich auf der x-Achse: etwa \textbf{0,86 Kilometer} und y-Achse: \textbf{0,5 Kilometer}. Also auf dem Punkt \textbf{A(0,86|0,5)} \\  \\
-Das Schiff \textbf{B} mit dem Kurs \textbf{75°} befindet sich auf der x-Achse: etwa \textbf{0,25 Kilometer} und y-Achse: \textbf{0,96 Kilometer}. Also auf dem Punkt \textbf{A(0,25|0,96)}
-
-\newpage
-\subsection{Der Sinus und Kosinus am Einheitskreis}
-\noindent
-Dreiecke mit der \textbf{Hypotenusenlänge 1} kann man in einem Koordinatensystem auf folgenden Weise darstellen:
-\begin{multicols}{2}
-	\paragraph{1. }
-	Die Endpunkte der \textbf{Hypotenuse} sind der Ursprung O und ein Punkt \textbf{P}, der auf einem Kreis O mit dem \textbf{Radius 1} liegt. Diesen Kreis nennt man den \textbf{Einheitskreis}.
-	\paragraph{2. }
-	Die Ecke mit dem rechten Winkel liegt auf der \textbf{x-Achse senkrecht unter P}. Der Punkt P hat somit Koordinaten \textbf{P(cos($\alpha$)|sin($\alpha$))}
-\end{multicols}
-\begin{figure}[hb!]
-	\centering
-	\def\svgwidth{250px}
-	\input{assets/main/sin_cos_einheitskreis.path.pdf_tex}
-	\caption{Sinus und Kosinus am Einheitskreis}
-	\label{fig:sin_cos_einheitskreis}
-\end{figure}
-
-\subsection{Beziehungen zwischen Sinus, Kosinus und Tangens}
-\paragraph{1.}
-\newcommand{\smallImageSize}{130px} %Size for the Images saved in a variable
-\begin{figure}[h!]
-	\centering
-	\begin{subfigure}[b]{0.3\linewidth}
-		\def\svgwidth{\smallImageSize}
-		\input{assets/main/0_alpha_90.path.pdf_tex}
-		\caption{$0° < \alpha < 90°$}
-		\label{fig:0_alpha_90}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.3\linewidth}
-		\def\svgwidth{\smallImageSize}
-		\input{assets/main/sin_null_cos_null_einheitskreis.path.pdf_tex}
-		\caption{$sin(0°) = 0, cos(0°) = 1$}
-		\label{fig:sin_null_cos_null_einheitskreis}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.3\linewidth}
-		\def\svgwidth{\smallImageSize}
-		\input{assets/main/sin_neunzig_cos_neunzig_einheitskreis.path.pdf_tex}
-		\caption{$sin(90°) = 1, cos(90°) = 1$}
-		\label{fig:sin_neunzig_cos_neunzig_einheitskreis}
-	\end{subfigure}
-	\caption{Beziehung 1}
-	\label{fig:beziehung_eins}
-\end{figure}
-
-\noindent Für $0° < \alpha < 90°$ nimmt $sin(\alpha)$ mit wachsendem $\alpha$ zu und $cos(\alpha)$ ab(\autoref{fig:0_alpha_90}). \\
-$sin(0°) = 0, cos(0°) = 1$ (\autoref{fig:sin_null_cos_null_einheitskreis}), $sin(90°) = 1, cos(90°) = 0$ (\autoref{fig:sin_neunzig_cos_neunzig_einheitskreis}).
-\newpage
-\paragraph{2.}
-Wendet man auf das im Einheitskreis dargestellte Dreieck den Satz des Pythagoras an(\autoref{fig:einheitskreis_dreieck_pythagoras}), so erhält man den für jede Winkelweite gültigen Zusammenhang \\
-$sin^2(\alpha) + cos^2(\alpha) = 1$. \\
-Beispiel:
-\begin{align}
-	sin^2(\alpha) + cos^2(\alpha)                    & = 1 \tag{1}  \\
-	(sin(45))^2 + (cos(45)^2)                        & = 1  \tag{2} \\
-	(\frac{\sqrt{2}}{2})^2 + (\frac{\sqrt{2}}{2})^2  & = 1 \tag{3}  \\
-	\frac{\sqrt{2^2}}{2^2}) + \frac{\sqrt{2^2}}{2^2} & = 1 \tag{4}  \\
-	\frac{2}{4} + \frac{2}{4}                        & = 1 \tag{5}  \\
-	0,5 + 0,5                                        & = 1 \tag{6}
-\end{align}
-
-\begin{figure}[hb!]
-	\center
-	\def\svgwidth{200px}
-	\input{assets/main/einheitskreis_dreieck_pythagoras.path.pdf_tex}
-	\caption{Einheitskreis Dreieck Satz des Pythagoras}
-	\label{fig:einheitskreis_dreieck_pythagoras}
-\end{figure}
-\paragraph{3.}
-\begin{wrapfigure}[6]{r}{0.45\textwidth}
-	\def\svgwidth{200px}
-	\input{assets/main/sin_neunzig_minus_alpha_cos_neunzig_minus_alpha.path.pdf_tex}
-	\caption{sin(90° - $\alpha$), cos(90° - $\alpha$)}
-	\label{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}
-\end{wrapfigure}
-In \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha} sieht man: \\
-$sin(90° - \alpha) = x = cos(\alpha)$ und \\
-$cos(90° - \alpha) = y = sin(\alpha)$ \\
-\textbf{Beispiel:}
-\begin{align}
-	sin(90° - \alpha) & = x                   & = cos(\alpha) \tag{1} \\
-	sin(90° - 30°)    & =  \frac{\sqrt{3}}{2} & = cos(30°) \tag{2}
-\end{align}
-\paragraph{4.}
-Ebenfalls in \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha}:\\
-$tan(\alpha) = \frac{y}{x} = \frac{sin(\alpha)}{\cos(\alpha)}$.
-\newpage
-\subsection{Einheitskreis - Definition}
-\textbf{Definition:} Es gilt:
-\paragraph{}
-$sin^2(\alpha) + cos^2(\alpha) = 1$
-\paragraph{}
-$sin(90° - \alpha) = sin(\alpha)$
-\paragraph{}
-$tan(\alpha) = \frac{sin(\alpha)}{\cos(\alpha)}$, $\alpha \neq 90°$, weil:
-$tan(90)=\frac{sin(90)}{cos(90)} = \frac{1}{0} = !$.
-\subsection{Einheitskreis - Aufgabe}
-\textbf{Aufgabe:}
-$sin(\alpha) = 0,6$. \\
-{\footnotesize
-\textbf{Bestimme:}
-\begin{multicols}{5}
-	\textit{\textbf{a)}}
-	\[
-		cos(\alpha)
-	\]
-
-	\textit{\textbf{b)}}
-	\[
-		tan(\alpha)
-	\]
-
-	\textit{\textbf{c)}}
-	\[
-		sin(90° - \alpha)
-	\]
-
-	\textit{\textbf{d)}}
-	\[
-		cos(90° - \alpha)
-	\]
-
-	\textit{\textbf{e)}}
-	\[
-		tan(90° - \alpha)
-	\]
-\end{multicols}
-}
-\textbf{a) - Lösung:}
-\begin{align}
-	sin^2(\alpha) + cos^2(\alpha) & = 1 \tag{1}                                    \\
-	0,6^2 + cos^2(\alpha)         & = 1                         & |-0,6^2 \tag{2}  \\
-	cos^2(\alpha)                 & = 1 - 0,36                  & |\sqrt{} \tag{3} \\
-	cos(\alpha)                   & = \sqrt{1 - 0,36}   \tag{4}                    \\
-	cos(\alpha)                   & = \sqrt{0,64}   \tag{5}                        \\
-	cos(\alpha)                   & = 0,8   \tag{6}
-\end{align}
-
-\textbf{b) - Lösung:}
-\begin{align}
-	tan(\alpha) & = \frac{sin(\alpha)}{cos(\alpha)} \tag{1} \\
-	tan(\alpha) & = \frac{0,6}{0,8} = \frac{6}{8} \tag{2}   \\
-	tan(\alpha) & = \frac{3}{4} = 0,75 \tag{3}
-\end{align}
-
-\textbf{c) - Lösung:}
-\begin{align}
-	sin(90° - \alpha) & = cos(\alpha) = 0,8 \tag{1}
-\end{align}
-
-\textbf{d) - Lösung:}
-\begin{align}
-	cos(90° - \alpha) & = sin(\alpha) = 0,6 \tag{1}
-\end{align}
-
-\textbf{e) - Lösung:}
-\begin{align}
-	tan(90° - \alpha) & = \frac{sin(90° - \alpha)}{cos(90° - \alpha)} = \frac{0,8}{0,6} \tag{1} \\
-	tan(90° - \alpha) & = \frac{8}{6} = \frac{4}{3} \tag{2}
-\end{align}
-
-\newpage
-\section{Mit dem Sinus modellieren}
-\subsection{Mit dem Sinus modellieren - Beispiel}
-\textbf{Aufgabe:}
-\begin{figure}[hb!]
-	\center
-	\def\svgwidth{300px}
-	\input{assets/main/schaufelraddamper.path.pdf_tex}
-	\caption{Schaufelraddampfer}
-	\label{fig:schaufelraddamper}
-\end{figure}
-\\Bei einem Shaufelraddampfer dreht sich das Rad mit einem Durchmsser von 2 Meter einmal vollständig in 60 Sekunden(\autoref{fig:schaufelraddamper}). In welcher Höhe über dem Wasserspiegel liegt der rot markierte Punkt A?\\
-Erstelle eine Wertetabelle in 5 Sekunden Schritten.\\
-\textbf{Lösung:}\\
-
-\definecolor{MyGreen}{rgb}{0,1,0.549}%{0.9,0.9,1}
-\begin{adjustbox}{width=\textwidth}
-	\begin{tabular}{ |>{\columncolor{MyGreen}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
-		\hline
-		\rowcolor{MyGreen}
-		Zeit t (in s)   & 0  & 5   & 10   & 15  & 20   & 25   & 30   & 35   & 40    & 45   & 50    & 55   & 60   \\
-		\hline
-		Winkel $\alpha$ & 0° & 30° & 60°  & 90° & 120° & 150° & 180° & 210° & 240°  & 270° & 300°  & 330° & 360° \\
-		\hline
-		Höhe h (in m)   & 0  & 0,5 & 0,87 & 1   & 0,87 & 0,5  & 0    & -0,5 & -0,87 & -1   & -0,87 & -0,5 & 0    \\
-		\hline
-	\end{tabular}
-\end{adjustbox}
-
-\subsection{Winkel $\alpha$ mit 0° $\leq$ $\alpha$ $\leq$ 90°}
-Am Einheitskreis entspricht sin($\alpha$) der y-Koordinate des Punktes P(\autoref{fig:0_alpha_90_360}).\\
-\textbf{$sin(40°) \approx 0,64$}
-\begin{figure}[hb!]
-	\center
-	\def\svgwidth{200px}
-	\input{assets/main/0_alpha_90_360.path.pdf_tex}
-	\caption{Winkel $\alpha$ mit 0° $\leq$ $\alpha$ $\leq$ 90°}
-	\label{fig:0_alpha_90_360}
-\end{figure}
-\newpage
-\subsection{Erweiterter Winkel $\alpha$ mit 90° $<$ $\alpha$ $\leq$ 360°}
-\begin{figure}[h!]
-	\centering
-	\begin{subfigure}[b]{0.5\linewidth}
-		\def\svgwidth{220px}
-		\input{assets/main/sin_120_087.path.pdf_tex}
-		\caption{$sin(120°) \approx 0,87$}
-		\label{fig:sin_120_087}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.35\linewidth}
-		\def\svgwidth{220px}
-		\input{assets/main/sin_310_-_077.path.pdf_tex}
-		\caption{$sin(310°) \approx -0,77$}
-		\label{fig:sin_310_-_077}
-	\end{subfigure}
-	\caption{Erweiterter Winkel $\alpha$ mit 90° $<$ $\alpha$ $\leq$ 360°}
-	\label{fig:erweiterter_winkel_alpha}
-\end{figure}
-
-\noindent Wird $\alpha$ über 90° vergrößert, wird der Sinuswert von $\alpha$ ebenso als y-Koordinate des Punktes P festgelegt(\autoref{fig:erweiterter_winkel_alpha}).
-\subsection{Funktion f mit f($\alpha$)}
-Ordnet man jedem Winkel $\alpha$ mit 0° $\leq \alpha \leq$ 360° seinen Sinuswert zu, so erhält man eine Funktion f mit f($\alpha$) = sin($\alpha$).\\
-Man kann mithilfe des Graphen von f(\autoref{fig:sinuswelle}) zu gegebenem Winkel den Sinuswert näherungsweise ablesen oder näherungsweise Winkel mit vorgegebenem Sinuswert ermitteln.
-\begin{figure}[hb!]
-	\center
-	\def\svgwidth{500px}
-	\input{assets/main/sinuswelle.path.pdf_tex}
-	\caption{$f(\alpha) = sin(\alpha)$}
-	\label{fig:sinuswelle}
-\end{figure}
-\subsection{Sinusfunktion im Gradmaß - Definition}
-Die Funktion f mit f($\alpha$) = sin($\alpha$) heißt \textbf{Sinusfunktion im Gradmaß}.
-\newpage
-\subsection{Graph einer Sinusfunktion zeichnen}
-
-\begin{adjustbox}{width=\textwidth}
-	\begin{tabular}{ |>{\columncolor{MyGreen}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
-		\hline
-		\rowcolor{MyGreen}
-		Zeit t (in s)   & 0  & 5   & 10   & 15  & 20   & 25   & 30   & 35   & 40    & 45   & 50    & 55   & 60   \\
-		\hline
-		Winkel $\alpha$ & 0° & 30° & 60°  & 90° & 120° & 150° & 180° & 210° & 240°  & 270° & 300°  & 330° & 360° \\
-		\hline
-		Höhe h (in m)   & 0  & 0,5 & 0,87 & 1   & 0,87 & 0,5  & 0    & -0,5 & -0,87 & -1   & -0,87 & -0,5 & 0    \\
-		\hline
-	\end{tabular}
-\end{adjustbox}
-
-\begin{figure}[hb!]
-	\center
-	\def\svgwidth{500px}
-	\input{assets/main/sinuswelle_zeichnen.path.pdf_tex}
-	\caption{Sinuswelle Zeichnen}
-	\label{fig:sinuswelle_zeichnen}
-\end{figure}
-
-
-\subsection{Einen Zeitlichen Vorgang modellieren}
-\subsection{Erweiterter Winkel $\alpha$ mit 90° $<$ $\alpha$ $\leq$ 360° - Aufgabe}
-
-\begin{figure}[hb!]
-	\centering
-	\def\svgwidth{150px}
-	%\input{assets/main/alpha_0.path.pdf_tex}
-	\input{assets/main/sin_310_-_077.path.pdf_tex}
-	\caption{$\alpha = 0°$}
-	\label{fig:alpha_0}
-\end{figure}
-
-\textbf{Aufgabe:}\\
-Ein Punkt P bewegt sich auf dem Einheitskreis(\autoref{fig:alpha_0}) gegen den Uhrzeigersinn. Für $\alpha$ = 0° befindet er sich im Punkt(1|0)\\
-\textbf{a)} Gib die y-Koordinate des Punktes P für $\alpha$ = 140° und für $\alpha$ = 310° an.\\
-\textbf{b)}Bestimme zwei verschiedene Werte für $\alpha$, sodass seine y-Koordinate 0,8 beträgt.\\
-\textbf{Lösung:}\\
-\textbf{Lösung - a)}\\
-Für $\alpha$ = 140°:\\
-\begin{align}
-	sin(\alpha) = y \tag{1}        \\
-	sin(140°) \approx 0,64 \tag{2} \\
-	cos(\alpha) = x \tag{3}        \\
-	cos(140°) \approx -0,77 \tag{4}
-\end{align}
-\\
-Punkt (-0,77|0,64)
-\\
-Für $\alpha$ = 310°:\\
-\begin{align}
-	sin(\alpha) = y \tag{1}         \\
-	sin(140°) \approx -0,77 \tag{2} \\
-	cos(\alpha) = x \tag{3}         \\
-	cos(140°) \approx 0,64 \tag{4}
-\end{align}
-\\
-Punkt (0,64|-0,77)
-\newpage
-\textbf{Lösung - b)}text
-
-\newpage
-\section{Zusammenfassung}
-
-\section{Anwendungsbeispiele / Weiter Anwendungen}
-
-\newpage
-\section{Quellen}
-\begin{itemize}
-	\item Freiburger Münster - \url{https://freiburg-schwarzwald.de/fotos06feb/freiburg12-060227.jpg}
-	\item Vector Boot - \url{https://www.vecteezy.com/vector-art/170704-flat-ship-vectors}
-	\item Lambacher Sweizer 9(S. 90 - 104) - Mathematik Buch
-\end{itemize}
 \end{document}
 
