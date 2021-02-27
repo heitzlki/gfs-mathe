@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="272.86916"
-     inkscape:cy="224.71684"
+     inkscape:zoom="1.28"
+     inkscape:cx="97.313914"
+     inkscape:cy="114.99459"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -176,11 +176,11 @@
        d="M 8.9296898,78.382809 28.189491,6.5042509 V 78.382809 Z"
        id="path864" />
     <path
-       style="fill:#000000;stroke:#0000ff;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;fill-opacity:0;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#000000;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;fill-opacity:0;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 28.189491,6.5042509 V 78.382809"
        id="path870" />
     <path
-       style="fill:none;stroke:#00ff00;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#00ff00;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 8.9296874,78.382809 H 28.189491"
        id="path872" />
     <text
@@ -194,38 +194,5 @@
          x="44.018318"
          y="56.626453"
          style="stroke-width:0.264583" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.93889px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
-       x="-10.266199"
-       y="65.352959"
-       id="text874"><tspan
-         sodipodi:role="line"
-         id="tspan872"
-         x="-10.266199"
-         y="65.352959"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583">α</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583"
-       x="-24.129507"
-       y="56.835926"
-       id="text887"><tspan
-         sodipodi:role="line"
-         id="tspan885"
-         x="-24.129507"
-         y="56.835926"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583">sin(α)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583"
-       x="-23.438318"
-       y="71.221008"
-       id="text891"><tspan
-         sodipodi:role="line"
-         id="tspan889"
-         x="-23.438318"
-         y="71.221008"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583">cos(α)</tspan></text>
   </g>
 </svg>

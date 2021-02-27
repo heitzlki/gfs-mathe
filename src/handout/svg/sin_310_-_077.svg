@@ -12,7 +12,7 @@
    viewBox="0 0 31.749999 31.75"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="sin_310_-_077.svg">
   <defs
      id="defs2" />
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="60.447585"
-     inkscape:cy="64.369662"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="121.22842"
+     inkscape:cy="30.223522"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -33,9 +33,9 @@
      units="px"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1866"
+     inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="54"
+     inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -279,18 +279,6 @@
          x="30.039928"
          y="5.1088524"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.145679" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.32292px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.174662"
-       x="30.189491"
-       y="-16.232468"
-       id="text890"
-       transform="scale(1,-1)"><tspan
-         sodipodi:role="line"
-         id="tspan888"
-         x="30.189491"
-         y="-16.232468"
-         style="font-size:1.32292px;stroke-width:0.174662">x</tspan></text>
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 24.888755,23.100446 1.744,3.020694"
