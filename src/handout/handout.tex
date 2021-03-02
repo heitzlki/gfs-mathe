@@ -30,6 +30,10 @@
 \usepackage{subcaption}
 \captionsetup{compatibility=false}
 
+\usepackage{scalerel,stackengine,amsmath} % Für ein "entspricht" Zeichen
+\newcommand\equalhat{\mathrel{\stackon[1.5pt]{=}{\stretchto{%
+    \scalerel*[\widthof{=}]{\wedge}{\rule{1ex}{3ex}}}{0.5ex}}}}
+
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}  %Dokument Rand etc. einstellen
 %\renewcommand{\familydefault}{\sfdefault} %sans-serif Schriftart
 \title{Mit dem Sinus modellieren}
@@ -52,8 +56,9 @@
 \input{modules/Einheitskreis/Enheitskreis.tex}
 \input{modules/Modellieren/Modellieren.tex}
 \newpage
-\section{Zusammenfassung}
-\section{Anwendungsbeispiele / Weiter Anwendungen}
+\input{modules/Anwendung/Anwendung.tex}
+\newpage
+\input{modules/Zusammenfassung/Zusammenfassung.tex}
 \newpage
 \input{modules/Quellen/Quellen.tex}
 \end{document}
