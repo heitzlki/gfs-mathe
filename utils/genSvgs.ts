@@ -6,7 +6,7 @@ import { genSvg } from './modules/genSvg';
 (function genSvgs() {
   const argv = process.argv.map((val) => val);
   if (argv[2]) {
-    const pathToFile = path.join(__dirname, '../src/handout/');
+    const pathToFile = path.join(__dirname, '../src/schriftlich/');
     const files = glob.sync(`${pathToFile}/**/*${argv[2]}.svg`);
     if (files.length > 1) {
       console.log(`${chalk.red(`[/] Error: ${files.length} files aviable`)}`);
@@ -17,7 +17,7 @@ import { genSvg } from './modules/genSvg';
       genSvg(files.toString());
     }
   } else {
-    const pathToFile = path.join(__dirname, '../src/handout/');
+    const pathToFile = path.join(__dirname, '../src/schriftlich/');
     glob
       .sync(`${pathToFile}/**/*.svg`)
       .map((file) =>

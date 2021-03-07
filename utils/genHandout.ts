@@ -3,7 +3,10 @@ import * as chalk from 'chalk';
 const { execSync } = require('child_process');
 
 (async function genHandout() {
-  const pathToHandout = path.join(__dirname, '../src/handout/handout.tex');
+  const pathToHandout = path.join(
+    __dirname,
+    '../src/schriftlich/schriftlich.tex',
+  );
 
   try {
     const cmd = `pdflatex -synctex=1 -interaction=nonstopmode ${pathToHandout}`;

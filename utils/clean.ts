@@ -6,7 +6,7 @@ import { deleteFile } from './modules/deleteFile';
 (function clean() {
   const argv = process.argv.map((val) => val);
   if (argv[2]) {
-    const pathToFile = path.join(__dirname, '../src/handout/');
+    const pathToFile = path.join(__dirname, '../src/schriftlich/');
     const files = glob.sync(
       `${pathToFile}/**/*${argv[2]}.+(pdf_tex|pdf|path|aux|log|out|tec|synctex.gz)*`,
     );
@@ -16,7 +16,7 @@ import { deleteFile } from './modules/deleteFile';
       deleteFile(files.toString());
     }
   } else {
-    const pathToFile = path.join(__dirname, '../src/handout/');
+    const pathToFile = path.join(__dirname, '../src/schriftlich/');
     glob
       .sync(
         `${pathToFile}/**/*.+(pdf_tex|pdf|path|aux|log|out|toc|synctex.gz)*`,
