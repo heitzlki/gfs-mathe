@@ -6,10 +6,14 @@
   "author": "heitzlki",
   "license": "MIT",
   "scripts": {
-    "gen-handout": "ts-node utils/genHandout.ts",
-    "start-texmaker": "ts-node utils/startTexmaker.ts",
-    "gen-svg": "ts-node utils/genSvgs.ts",
-    "clean": "ts-node utils/clean.ts"
+    "start-texmaker-schriftlich": "ts-node src/schriftlich/utils/startTexmakerSchriftlich.ts",
+    "gen-svg-schriftlich": "ts-node src/schriftlich/utils/genSvgsSchriftlich.ts",
+    "clean-schriftlich": "ts-node src/schriftlich/utils/cleanSchriftlich.ts",
+    "gen-schriftlich": "ts-node src/schriftlich/utils/genSchriftlich.ts",
+    "start-texmaker-vortrag": "ts-node src/vortrag/utils/startTexmakerVortrag.ts",
+    "gen-svg-vortrag": "ts-node src/vortrag/utils/genSvgsVortrag.ts",
+    "clean-vortrag": "ts-node src/vortrag/utils/cleanVortrag.ts",
+    "gen-vortrag": "ts-node src/vortrag/utils/genVortrag.ts"
   },
   "dependencies": {
     "chalk": "^4.1.0",

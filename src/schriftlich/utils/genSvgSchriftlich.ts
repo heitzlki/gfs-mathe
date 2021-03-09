@@ -26,7 +26,7 @@ export function genSvg(file: string) {
     }
     try {
       execSync(
-        `inkscape -C --export-latex --export-type="pdf" --export-filename=${
+        `inkscape -C --export-latex --export-type='pdf' --export-filename=${
           tmp + pathPdfTexFile
         } ${tmp + pathFile}`,
       ).toString();

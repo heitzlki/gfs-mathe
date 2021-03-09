@@ -4,7 +4,7 @@ const { execSync } = require('child_process');
 import * as glob from 'glob';
 
 async function startTexmaker() {
-  const pathToModules = path.join(__dirname, '../src/schriftlich/');
+  const pathToModules = path.join(__dirname, '../');
   const modules = glob
     .sync(`${pathToModules}/**/*.tex`)
     .map((module) => module);
