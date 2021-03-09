@@ -8,7 +8,7 @@ import { deleteFile } from './deleteFileVortrag';
   if (argv[2]) {
     const pathToFile = path.join(__dirname, '../');
     const files = glob.sync(
-      `${pathToFile}/**/*${argv[2]}.+(pdf_tex|pdf|path|aux|log|out|tec|synctex.gz)*`
+      `${pathToFile}/**/*${argv[2]}.+(pdf_tex|path|aux|log|out|tec|nav|snm|synctex.gz)*`
     );
     if (files.length == 0) {
       console.log(`${chalk.red(`[/] Error: ${argv[2]} file not aviable`)}`);
@@ -19,8 +19,12 @@ import { deleteFile } from './deleteFileVortrag';
     const pathToFile = path.join(__dirname, '../');
     glob
       .sync(
-        `${pathToFile}/**/*.+(pdf_tex|pdf|path|aux|log|out|toc|synctex.gz)*`
+        `${pathToFile}/**/*.+(pdf_tex|pdf|path|aux|log|out|tec|nav|snm|synctex.gz)*`
       )
-      .map((file) => deleteFile(file));
+      .map((file: any) =>
+        file == glob.sync(`${pathToFile}/**/vortrag.pdf`)
+          ? null
+          : deleteFile(file)
+      );
   }
 })();
