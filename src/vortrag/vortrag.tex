@@ -1,4 +1,5 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt]{beamer}
+\usetheme{Warsaw}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[german]{babel} %deutsche Sprache
@@ -42,23 +43,22 @@
 
 \begin{document}
 
-\maketitle
-\begin{textblock}{210}(-1,4)
-	\begin{figure}[h!]
-		\input{tmp/title.path.svg.pdf_tex} %Grafik muss 220mm breit sein
-	\end{figure}
-\end{textblock}
-\newpage
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\tableofcontents
+\end{frame}
+
 
 \tableofcontents
-\newpage
-\input{modules/Grundlagen/Grundlagen.tex}
-\input{modules/Einheitskreis/Enheitskreis.tex}
-\input{modules/Modellieren/Modellieren.tex}
-\input{modules/Anwendung/Anwendung.tex}
-\newpage
-\input{modules/Zusammenfassung/Zusammenfassung.tex}
-\newpage
-\input{modules/Quellen/Quellen.tex}
-\end{document}
 
+%\input{modules/Grundlagen/Grundlagen.tex}
+%\input{modules/Einheitskreis/Enheitskreis.tex}
+%\input{modules/Modellieren/Modellieren.tex}
+%\input{modules/Anwendung/Anwendung.tex}
+%\input{modules/Zusammenfassung/Zusammenfassung.tex}
+%\input{modules/Quellen/Quellen.tex}
+
+\end{document}
