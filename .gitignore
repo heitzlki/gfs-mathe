@@ -4,6 +4,8 @@
 *.out
 *.synctex.gz
 *.toc
+*.nav
+*.snm
 
 # Path
 *.path*
