@@ -1,20 +1,181 @@
 \documentclass{standalone}
 
 \begin{document}
+\begin{frame}
+  \begin{center}
+    Rechtwinkliges Dreieck - Beschriftung
+  \end{center}
+  \subsection{Rechtwinkliges Dreieck - Beschriftung}
+\end{frame}
 
-\subsection{Rechtwinkliges Dreieck - Beschriftung}
-\begin{figure}[hb!]
-  \centering
-  \def\svgwidth{200px}
-  \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
-  \caption{Rechtwinkliges Dreieck}
-  \label{fig:rechtwinkliges_dreieck}
-\end{figure}
-\noindent
-Das Rechtwinklige Dreieck wird folgenderma{\ss}en wie in \autoref{fig:rechtwinkliges_dreieck} beschriftet. \\
-Die Ecken werden mit den Buchstaben A, B, C gegen den Uhrzeigersinn bei A angefangen beschriftet. \\
-Die Winkel $\alpha$, $\beta$, $\gamma$ werden in die Ecken der entsprechenden Buchstaben A, B, C gesetzt. \\
-Die anliegende Kathete zu Winkel $\alpha$ wird "`Ankathete von $\alpha$"' genannt und die Kathete gegen{"u}ber von $\alpha$ wird "`Gegenkathete von $\alpha$"' genannt. \\
-Die Hypotenuse liegt gegen{"u}ber des rechten Winkels $\gamma$.
+\begin{frame}{Ecken}
+
+  \only<1-5>{\begin{itemize}
+    \item<2->Gegen den Uhrzeigersinn
+    \item<3->A
+    \item<4->B
+    \item<5->C
+  \end{itemize}}
+  \noindent
+  \only<6>{Die Ecken werden mit den Buchstaben A, B, C gegen den Uhrzeigersinn bei A angefangen beschriftet.}
+
+  \only<1-2>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_ecken}
+    \end{figure}
+  }
+
+  \only<3>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_ecke_A}
+    \end{figure}
+  }
+
+  \only<4>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_ecke_B}
+    \end{figure}
+  }
+
+  \only<5->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_ecke_C}
+    \end{figure}
+  }
+
+\end{frame}
+
+\begin{frame}{Winkel}
+  \only<1-4>{\begin{itemize}
+    \item<2->$\alpha$
+    \item<3->$\beta$
+    \item<4->$\gamma$
+  \end{itemize}}
+  \noindent
+  \only<5>{Die Winkel $\alpha$, $\beta$, $\gamma$ werden in die Ecken der entsprechenden Buchstaben A, B, C}
+
+  \only<1>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_winkel}
+    \end{figure}
+  }
+
+  \only<2>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_ecken_winkel_alpha}
+    \end{figure}
+  }
+
+  \only<3>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_ecken_winkel_beta}
+    \end{figure}
+  }
+
+  \only<4->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_ecken_winkel_gamma}
+    \end{figure}
+  }
+\end{frame}
+
+\begin{frame}{Katheten}
+    \only<1-3>{\begin{itemize}
+      \item<2->"`Ankathete von $\alpha$"'
+      \item<3->"`Gegenkathete von $\alpha$"'
+    \end{itemize}}
+    \noindent
+    \only<4>{Die anliegende Kathete zu Winkel $\alpha$ wird "`Ankathete von $\alpha$"' genannt \pause und die Kathete gegen{"u}ber von $\alpha$ wird "`Gegenkathete von $\alpha$"' genannt.}
+  
+    \only<1>{
+      \begin{figure}[hb!]
+        \centering
+        \def\svgwidth{200px}
+        \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+        \caption{Rechtwinkliges Dreieck}
+        \label{fig:rechtwinkliges_dreieck_katheten}
+      \end{figure}
+    }
+  
+    \only<2>{
+      \begin{figure}[hb!]
+        \centering
+        \def\svgwidth{200px}
+        \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+        \caption{Rechtwinkliges Dreieck}
+        \label{fig:rechtwinkliges_dreieck_ankathete}
+      \end{figure}
+    }
+
+    \only<3->{
+      \begin{figure}[hb!]
+        \centering
+        \def\svgwidth{200px}
+        \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+        \caption{Rechtwinkliges Dreieck}
+        \label{fig:rechtwinkliges_dreieck_gegenkathete}
+      \end{figure}
+    }
+\end{frame}
+
+\begin{frame}{Hypotenuse}
+  \only<1-2>{\begin{itemize}
+    \item<2->"`Hypotenuse"'
+  \end{itemize}}
+  \noindent
+  \only<3>{Die Hypotenuse liegt gegen{"u}ber des rechten Winkels $\gamma$.}
+
+  \only<1>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_hypotenuse_one}
+    \end{figure}
+  }
+
+  \only<2->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_hypotenuse_two}
+    \end{figure}
+  }
+\end{frame}
 
 \end{document}
