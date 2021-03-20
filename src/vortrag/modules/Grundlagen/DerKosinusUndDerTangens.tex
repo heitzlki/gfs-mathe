@@ -2,41 +2,119 @@
 
 \begin{document}
 
-\subsection{Der Kosinus und der Tangens}
-\textbf{Sinus von $\alpha$:}
-\begin{align}
-  \sin(\alpha) & = \dfrac{\text{Gegenkathete von $\alpha$}}{\text{Hypotenuse}} \nonumber
-\end{align}
-\begin{figure}[hb!]
-  \centering
-  \def\svgwidth{200px}
-  \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
-  \caption{Rechtwinkliges Dreieck}
-  \label{fig:rechtwinkliges_dreieck_sinus}
-\end{figure}
-\\
-\textbf{Cosinus von $\alpha$:}
-\begin{align}
-  \cos(\alpha) & = \dfrac{\text{Ankathete von $\alpha$}}{\text{Hypotenuse}} \nonumber
-\end{align}
-\begin{figure}[hb!]
-  \centering
-  \def\svgwidth{200px}
-  \input{tmp/rechtwinkliges_dreieck_cosinus.path.svg.pdf_tex}
-  \caption{Rechtwinkliges Dreieck}
-  \label{fig:rechtwinkliges_dreieck_cosinus}
-\end{figure}
-\\
-\textbf{Tangens von $\alpha$:}
-\begin{align}
-  \tan(\alpha) & = \dfrac{\text{Gegenkathete von $\alpha$}}{\text{Ankathete von $\alpha$}} \nonumber
-\end{align}
-\begin{figure}[hb!]
-  \centering
-  \def\svgwidth{200px}
-  \input{tmp/rechtwinkliges_dreieck_tangens.path.svg.pdf_tex}
-  \caption{Rechtwinkliges Dreieck}
-  \label{fig:rechtwinkliges_dreieck_tangens}
-\end{figure}
+\begin{frame}
+  \begin{center}
+    Der Kosinus und der Tangens
+  \end{center}
+  \subsection{Der Kosinus und der Tangens}
+\end{frame}
+
+\begin{frame}{Sinus von $\alpha$}
+  \begin{align}
+    \onslide<1->{\sin(\alpha) & =} \onslide<2->{\dfrac{\onslide<2->{\text{Gegenkathete von $\alpha$}}}{\onslide<3->{\text{Hypotenuse}}}} \nonumber
+  \end{align}
+
+  \only<1>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_sinus}
+    \end{figure}
+  }
+
+  \only<2>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_sinus_gegenkathete}
+    \end{figure}
+  }
+
+  \only<3->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_sinus_hypotenuse}
+    \end{figure}
+  }
+\end{frame}
+
+\begin{frame}{Cosinus von $\alpha$}
+  \begin{align}
+    \onslide<1->{\cos(\alpha) & =} \onslide<2->{\dfrac{\onslide<2->{\text{Ankathete von $\alpha$}}}{\onslide<3->{\text{Hypotenuse}}}} \nonumber
+  \end{align}
+  
+  \only<1>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_cosinus}
+    \end{figure}
+  }
+
+  \only<2>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_cosinus_ankathete}
+    \end{figure}
+  }
+
+  \only<3->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_cosinus_hypotenuse}
+    \end{figure}
+  }
+\end{frame}
+
+\begin{frame}{Tangens von $\alpha$}
+  \begin{align}
+    \onslide<1->{\tan(\alpha) & =} \onslide<2->{\dfrac{\onslide<2->{\text{Gegenkathete von $\alpha$}}}{\onslide<3->{\text{Ankathete von $\alpha$}}}} \nonumber
+  \end{align}
+  
+  \only<1>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_tangens}
+    \end{figure}
+  }
+
+  \only<2>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_tangens_gegenkathete}
+    \end{figure}
+  }
+
+  \only<3->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{200px}
+      \input{tmp/rechtwinkliges_dreieck_sinus.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck}
+      \label{fig:rechtwinkliges_dreieck_tangens_ankathete}
+    \end{figure}
+  }
+\end{frame}
 
 \end{document}
