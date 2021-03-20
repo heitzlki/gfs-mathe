@@ -2,25 +2,53 @@
 
 \begin{document}
 
-\subsection{Sinus - Beispiel}
-\textbf{Gegenkathete von $\alpha$ mithilfe des Sinus berechnen}: \\
-\textbf{Aufgabe:} Berechne die H{"o}he des Freiburger M{"u}nsters. Das rechtwinklige Dreieck in \autoref{fig:rechtwinkliges_dreieck_am_muenster} besitzt einen rechten Winkel (90$^\circ$), die Hypotenuse 164,05 Meter und die Winkelweite des Winkels $\alpha$ mit 45$^\circ$. Berechne die Gegenkathete von $\alpha$ namens x.\\
-\begin{figure}[hb!]
-  \centeringf
-  \centering
-  \def\svgwidth{300px}
-  \input{tmp/rechtwinkliges_dreieck_am_muenster.path.svg.pdf_tex}
-  \caption{Rechtwinkliges Dreieck am M{"u}nster}
-  \label{fig:rechtwinkliges_dreieck_am_muenster}
-\end{figure}
 
-\noindent\textbf{Rechnung:}
-\begin{align}
-  \sin(\alpha)                  & = \dfrac{\text{Gegenkathete von $\alpha$}}{\text{Hypotenuse}} \tag{1}                                                     \\
-  \sin(45^\circ )               & = \dfrac{x}{164,05m}                                                                             & |\cdot 164,05m \tag{2} \\
-  \sin(45^\circ ) \cdot 164,05m & = x                                                                                      \tag{3}                          \\
-  x                             & \cong 116m
-\end{align}
-\textbf{Antwort:} Die Gegenkathete von $\alpha$ betr{"a}gt etwa 116 Meter, somit ist das M{"u}nster auch etwa 116 Meter gro{\ss}.
+\begin{frame}
+  \begin{center}
+    Sinus - Beispiel\\
+    Gegenkathete von $\alpha$ mithilfe des Sinus berechnen
+  \end{center}
+  \subsection{Sinus - Beispiel}
+\end{frame}
+
+\begin{frame}{Aufgabe}
+  Berechne die H{"o}he des Freiburger M{"u}nsters. Das rechtwinklige Dreieck in \hyperref[fig:rechtwinkliges_dreieck_am_muenster]{Abbildung \autoref{fig:rechtwinkliges_dreieck_am_muenster}} besitzt einen rechten Winkel (90$^\circ$), die Hypotenuse 164,05 Meter und die Winkelweite des Winkels $\alpha$ mit 45$^\circ$. Berechne die Gegenkathete von $\alpha$ namens x.\\
+  \begin{figure}[hb!]
+    \centeringf
+    \centering
+    \def\svgwidth{300px}
+    \input{tmp/rechtwinkliges_dreieck_am_muenster.path.svg.pdf_tex}
+    \caption{Rechtwinkliges Dreieck am M{"u}nster}
+    \label{fig:rechtwinkliges_dreieck_am_muenster}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Rechnung}
+  \begin{itemize}
+    \item<1-> $\alpha = 45^\circ$
+    \item<2-> $\text{Hypotenuse} = 164,05m$
+    \item<3-> Gegenkathete von $\alpha = x$
+  \end{itemize}
+  
+  \begin{align}
+    \onslide<4->{\sin(\alpha)                  & = \dfrac{\text{Gegenkathete von $\alpha$}}{\text{Hypotenuse}} \tag{1} \\}
+    \onslide<5->{\sin(45^\circ )               & =} \onslide<6->{\dfrac{\onslide<6->{x}}{\onslide<7->{164,05m}}} & \onslide<8->{|\cdot 164,05m \tag{2} \\}
+    \onslide<9->{\sin(45^\circ ) \cdot 164,05m & =} \onslide<10->{x \tag{3} \\}
+    \onslide<11->{x                            & \cong} \onslide<12->{116m \tag{4} \\ \nonumber }
+  \end{align}
+\end{frame}
+
+\begin{frame}{Antwort}
+  \onslide<2->{Die Gegenkathete von $\alpha$ betr{"a}gt etwa 116 Meter, somit ist das M{"u}nster auch etwa 116 Meter gro{\ss}.}
+  \onslide<1->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{300px}
+      \input{tmp/rechtwinkliges_dreieck_am_muenster.path.svg.pdf_tex}
+      \caption{Rechtwinkliges Dreieck am M{"u}nster}
+      \label{fig:rechtwinkliges_dreieck_am_muenster_loesung}
+    \end{figure}
+  }
+\end{frame}
 
 \end{document}
