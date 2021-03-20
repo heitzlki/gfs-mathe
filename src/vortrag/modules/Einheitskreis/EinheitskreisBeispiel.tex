@@ -2,29 +2,92 @@
 
 \begin{document}
 
-\subsection{Beispiel}
+\begin{frame}
+  \begin{center}
+    Einheitskreis - Beispiel
+  \end{center}
+  \subsection{Beispiel}
+\end{frame}
 
-\textbf{Aufgaben-Text:} Auf einem Koordinatensystem eines Radarschirms (\autoref{fig:radar}) wird die Lage von zwei Schiffen durch die Entfernung zum Hafen(0) und durch den Kurs gegen{"u}ber der x-Achse beschrieben. \\
-\textbf{Aufgabe:} Ein Schiff \textbf{A} ist mit dem Kurs \textbf{30$^\circ$} gegen{"u}ber der x-Achse \textbf{einen Kilometer} weit gefahren. Welche Koordinaten im \textbf{x-y-Kooradinatensystem} hat es?\\
-Welche Koordinaten hat das Schiff \textbf{B}, das mit dem Kurs \textbf{75$^\circ$} \textbf{einen Kilometer} weit gefahren ist?
-\begin{figure}[hb!]
-	\centering
-	\def\svgwidth{250px}
-	\input{tmp/Radar.path.svg.pdf_tex}
-	\caption{Radar}
-	\label{fig:radar}
-\end{figure}
-\\
-\noindent
-\textbf{L{"o}sung:}
-\begin{wrapfigure}[9]{r}{0.5\textwidth}
-	\def\svgwidth{250px}
-	\input{tmp/radar_loesung.path.svg.pdf_tex}
-	\caption{Radar L{"o}sung}
-	\label{fig:radar_loesung}
-\end{wrapfigure}
-\\
-Das Schiff \textbf{A} mit dem Kurs \textbf{30$^\circ$} befindet sich auf der x-Achse: etwa \textbf{0,86 Kilometer} und y-Achse: \textbf{0,5 Kilometer}. Also auf dem Punkt \textbf{A(0,86|0,5)} \\  \\
-Das Schiff \textbf{B} mit dem Kurs \textbf{75$^\circ$} befindet sich auf der x-Achse: etwa \textbf{0,25 Kilometer} und y-Achse: \textbf{0,96 Kilometer}. Also auf dem Punkt \textbf{A(0,25|0,96)}
+\begin{frame}{Aufgaben-Text}
+	Auf einem Koordinatensystem eines Radarschirms (\hyperref[fig:radar]{Abbildung \autoref{fig:radar}}) wird die Lage von zwei Schiffen durch die Entfernung zum Hafen(0) und durch den Kurs gegen{"u}ber der x-Achse beschrieben.
+	\begin{figure}[hb!]
+		\centering
+		\def\svgwidth{150px}
+		\input{tmp/Radar.path.svg.pdf_tex}
+		\caption{Radar}
+		\label{fig:radar}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Aufgaben A}
+	Ein Schiff \textbf{A} ist mit dem Kurs \textbf{30$^\circ$} gegen{"u}ber der x-Achse \textbf{einen Kilometer} weit gefahren. Welche Koordinaten im \textbf{x-y-Kooradinatensystem} hat es?
+	\begin{figure}[hb!]
+		\centering
+		\def\svgwidth{150px}
+		\input{tmp/Radar.path.svg.pdf_tex}
+		\caption{Radar}
+		\label{fig:radar_a}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{L{"o}sung A}
+	\only<1>{Sch{"a}tzungen?}
+	\only<1>{
+		\begin{figure}[hb!]
+			\centering
+			\def\svgwidth{150px}
+			\input{tmp/radar_loesung.path.svg.pdf_tex}
+			\caption{Radar L{"o}sung}
+			\label{fig:radar_a_zwei}
+		\end{figure}
+	}
+
+	\onslide<2->{Das Schiff \textbf{A} mit dem Kurs \textbf{30$^\circ$} befindet sich auf der x-Achse: etwa \textbf{0,86 Kilometer} und y-Achse: \textbf{0,5 Kilometer}. Also auf dem Punkt \textbf{A(0,86|0,5)}}
+	\onslide<2->{
+		\begin{figure}[hb!]
+			\centering
+			\def\svgwidth{150px}
+			\input{tmp/radar_loesung.path.svg.pdf_tex}
+			\caption{Radar L{"o}sung}
+			\label{fig:radar_a_loesung}
+		\end{figure}
+	}
+\end{frame}
+
+\begin{frame}{Aufgaben B}
+	Welche Koordinaten hat das Schiff \textbf{B}, das mit dem Kurs \textbf{75$^\circ$} \textbf{einen Kilometer} weit gefahren ist?
+	\begin{figure}[hb!]
+		\centering
+		\def\svgwidth{150px}
+		\input{tmp/Radar.path.svg.pdf_tex}
+		\caption{Radar}
+		\label{fig:radar_b}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{L{"o}sung B}
+	\only<1>{Sch{"a}tzungen?}
+	\only<1>{
+		\begin{figure}[hb!]
+			\centering
+			\def\svgwidth{150px}
+			\input{tmp/radar_loesung.path.svg.pdf_tex}
+			\caption{Radar L{"o}sung}
+			\label{fig:radar_b_zwei}
+		\end{figure}
+	}
+
+	\onslide<2->{Das Schiff \textbf{B} mit dem Kurs \textbf{75$^\circ$} befindet sich auf der x-Achse: etwa \textbf{0,25 Kilometer} und y-Achse: \textbf{0,96 Kilometer}. Also auf dem Punkt \textbf{A(0,25|0,96)}}
+	\onslide<2->{
+		\begin{figure}[hb!]
+			\centering
+			\def\svgwidth{150px}
+			\input{tmp/radar_loesung.path.svg.pdf_tex}
+			\caption{Radar L{"o}sung}
+			\label{fig:radar_b_loesung}
+		\end{figure}
+	}
+\end{frame}
 
 \end{document}
