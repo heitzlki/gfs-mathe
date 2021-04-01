@@ -100,18 +100,28 @@
 \end{frame}
 
 \begin{frame}{4}
-	Ebenfalls in \hyperref[fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha_drei]{Abbildung \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha_drei}}: \\
+	Ebenfalls in \hyperref[fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha_drei]{Abbildung \autoref{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha_drei}}:
 	\begin{align}
-    \onslide<1->{\tan(\alpha) =} \onslide<2->{\frac{\onslide<2->{\text{Gegenkathete von $\alpha$}}}{\onslide<3->{\text{Ankathete von $\alpha$}}} =} \onslide<4->{\frac{y}{x} = \frac{\sin(\alpha)}{\cos(\alpha)}}
+    \onslide<1->{\tan(\alpha) =} \onslide<2->{\frac{\onslide<2->{\text{Gegenkathete von $\alpha$}}}{\onslide<3->{\text{Ankathete von $\alpha$}}} =} \onslide<4->{\frac{y}{x} = \frac{\sin(\alpha)}{\cos(\alpha)}} \nonumber
 	\end{align}
 	
-	\begin{figure}[hb!]
-		\centering
-		\def\svgwidth{150px}
-		\input{tmp/sin_neunzig_minus_alpha_cos_neunzig_minus_alpha.path.svg.pdf_tex}
-		\caption{sin(90$^\circ$ - $\alpha$); cos(90$^\circ$ - $\alpha$)}
-		\label{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha_drei}
-	\end{figure}
+	\only<1-4>{
+		\begin{figure}[hb!]
+			\centering
+			\def\svgwidth{150px}
+			\input{tmp/sin_neunzig_minus_alpha_cos_neunzig_minus_alpha.path.svg.pdf_tex}
+			\caption{sin(90$^\circ$ - $\alpha$); cos(90$^\circ$ - $\alpha$)}
+			\label{fig:sin_neunzig_minus_alpha_cos_neunzig_minus_alpha_drei}
+		\end{figure}
+	}
+	\only<5->{
+		Wichtig:\\
+		\begin{align}
+			\onslide<5->{\tan(90) =} \onslide<6->{\frac{\sin(90)}{\cos(90)} =} \onslide<7->{\frac{1}{0} =} \onslide<8->{\text{\Lightning}} \nonumber
+		\end{align}
+			
+    
+	}
 \end{frame}
 
 \end{document}
