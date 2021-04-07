@@ -1,26 +1,44 @@
 \documentclass{standalone}
 \begin{document}
 
-\subsection{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$ }
+\begin{frame}
+  \begin{center}
+    Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$
+  \end{center}
+  \subsection{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$}
+\end{frame}
 
-\noindent Wird $\alpha$ {"u}ber 90$^\circ$  vergr{"o}{\ss}ert, wird der Sinuswert von $\alpha$ ebenso als y-Koordinate des Punktes P festgelegt(\autoref{fig:erweiterter_winkel_alpha}).
+\begin{frame}{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$}
+  \onslide<1->{\noindent Wird $\alpha$ {"u}ber 90$^\circ$  vergr{"o}{\ss}ert, wird der Sinuswert von $\alpha$ ebenso als y-Koordinate des Punktes P festgelegt(\hyperref[fig:erweiterter_winkel_alpha]{Abbildung \autoref{fig:erweiterter_winkel_alpha}}).}
 
-\begin{figure}[h!]
-  \centering
-  \begin{subfigure}[b]{0.5\linewidth}
-    \def\svgwidth{220px}
-    \input{tmp/sin_120_087.path.svg.pdf_tex}
-    \caption{$\sin(120^\circ ) \approx 0,87$}
-    \label{fig:sin_120_087}
-  \end{subfigure}
-  \begin{subfigure}[b]{0.35\linewidth}
-    \def\svgwidth{220px}
-    \input{tmp/sin_310_-_077.path.svg.pdf_tex}
-    \caption{$\sin(310^\circ ) \approx -0,77$}
-    \label{fig:sin_310_-_077}
-  \end{subfigure}
-  \caption{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$ }
-  \label{fig:erweiterter_winkel_alpha}
-\end{figure}
+  \only<1>{$\sin(120^\circ ) \approx 0,87$}
+  \only<2->{$\sin(310^\circ ) \approx -0,77$}
+  
+  \begin{figure}[hb!]
+    \center
+    \def\svgwidth{150px}
+    \only<1>{
+      \input{tmp/sin_120_087.path.svg.pdf_tex}
+      \caption{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$}
+    }
+
+    \only<2->{
+      \input{tmp/sin_310_-_077.path.svg.pdf_tex}
+      \caption{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$}
+    }
+    \label{fig:erweiterter_winkel_alpha}
+  \end{figure}
+  
+  % \only<2->{
+  %   \begin{figure}[hb!]
+  %     \center
+  %     \def\svgwidth{150px}
+  %     \input{tmp/sin_310_-_077.path.svg.pdf_tex}
+  %     \caption{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$}
+  %     \label{fig:erweiterter_winkel_alpha}
+  %   \end{figure}
+  %   $\sin(310^\circ ) \approx -0,77$
+  % }
+\end{frame}
 
 \end{document}
