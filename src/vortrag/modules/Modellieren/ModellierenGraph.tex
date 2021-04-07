@@ -1,28 +1,49 @@
 \documentclass{standalone}
 \begin{document}
 
-\subsection{Graph einer Sinusfunktion zeichnen}
+\begin{frame}
+  \begin{center}
+    Graph einer Sinusfunktion zeichnen
+  \end{center}
+  \subsection{Graph einer Sinusfunktion zeichnen}
+\end{frame}
 
-\definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
-\begin{adjustbox}{width=\textwidth}
-  \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
-    \hline
-    \rowcolor{MyGrey}
-    Zeit t (in s)   & 0         & 5          & 10         & 15         & 20          & 25          & 30          & 35          & 40          & 45          & 50          & 55          & 60          \\
-    \hline
-    Winkel $\alpha$ & 0$^\circ$ & 30$^\circ$ & 60$^\circ$ & 90$^\circ$ & 120$^\circ$ & 150$^\circ$ & 180$^\circ$ & 210$^\circ$ & 240$^\circ$ & 270^$\circ$ & 300$^\circ$ & 330$^\circ$ & 360$^\circ$ \\
-    \hline
-    Höhe h (in m)   & 0         & 0,5        & 0,87       & 1          & 0,87        & 0,5         & 0           & -0,5        & -0,87       & -1          & -0,87       & -0,5        & 0           \\
-    \hline
-  \end{tabular}
-\end{adjustbox}
+\begin{frame}{Graph einer Sinusfunktion zeichnen}
+  \definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
+  \onslide<1->{
+    \begin{adjustbox}{width=\textwidth}
+      \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
+        \hline
+        Winkel $\alpha$ & 0$^\circ$ & 30$^\circ$ & 60$^\circ$ & 90$^\circ$ & 120$^\circ$ & 150$^\circ$ & 180$^\circ$ & 210$^\circ$ & 240$^\circ$ & 270^$\circ$ & 300$^\circ$ & 330$^\circ$ & 360$^\circ$ \\
+        \hline
+        $\sin(\alpha)$   & 0         & 0,5        & 0,87       & 1          & 0,87        & 0,5         & 0           & -0,5        & -0,87       & -1          & -0,87       & -0,5        & 0           \\
+        \hline
+      \end{tabular}
+    \end{adjustbox}
+  }
 
-\begin{figure}[hb!]
-  \center
-  \def\svgwidth{500px}
-  \input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}
-  \caption{Sinuswelle Zeichnen}
-  \label{fig:sinuswelle_zeichnen}
-\end{figure}
+  \begin{figure}[hb!]
+    \center
+    \def\svgwidth{300px}
+
+    \only<1>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<2>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<3>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<4>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<5>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<6>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<7>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<8>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<9>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<10>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<11>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<12>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    % \only<13>{\input{tmp/sinuswelle_zeichnen.path.svg.pdf_tex}}
+    \caption{Sinuswelle Zeichnen}
+    \label{fig:sinuswelle_zeichnen}
+  \end{figure}
+
+\end{frame}
+
 
 \end{document}
