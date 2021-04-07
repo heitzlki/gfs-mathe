@@ -1,51 +1,67 @@
 \documentclass{standalone}
 \begin{document}
 
-\subsection{Einen Zeitlichen Vorgang modellieren}
+\begin{frame}
+  \begin{center}
+    Einen Zeitlichen Vorgang modellieren
+  \end{center}
+  \subsection{Einen Zeitlichen Vorgang modellieren}
+\end{frame}
 
-\noindent In einem Hafenbecken schwankt der Wasserstand periodisch um seinen Durchschnittswert (\autoref{fig:wasserstand})
+\begin{frame}{Einen Zeitlichen Vorgang modellieren}
+  \noindent In einem Hafenbecken schwankt der Wasserstand periodisch um seinen Durchschnittswert (\hyperref[fig:wasserstand]{Abbildung \autoref{fig:wasserstand}})
 
-\begin{figure}[hb!]
-  \center
-  \def\svgwidth{500px}
-  \input{tmp/wasserstand.path.svg.pdf_tex}
-  \caption{Wasserstand}
-  \label{fig:wasserstand}
-\end{figure}
+  \begin{figure}[hb!]
+    \center
+    \def\svgwidth{300px}
+    \input{tmp/wasserstand.path.svg.pdf_tex}
+    \caption{Wasserstand}
+    \label{fig:wasserstand}
+  \end{figure}
+\end{frame}
 
-\noindent \textbf{Aufgabe:}\\
-\noindent \textbf{a)} Erl{"a}utere, wie man zu einem gegebenenen Zeitpunkt t die Winkelweite $\alpha$ erh{"a}lt und umgekehrt. Bestimme f{"u}r t = 5 (t in h) den zugeh{"o}rigen Winkel.\\
-\noindent \textbf{b)} Mit welcher Funktion kann man zu einem gegebenen Winkel $\alpha$ den Wasserstand berechnen? Berechne den Wasserstand 5 Stunden nach Beobachtungsbeginn.\\
 
-\newpage
+\begin{frame}{Aufgabe}
+  \begin{itemize}
+    \item<2-> a) Erl{"a}utere, wie man zu einem gegebenenen Zeitpunkt t die Winkelweite $\alpha$ erh{"a}lt und umgekehrt. Bestimme f{"u}r t = 5 (t in h) den zugeh{"o}rigen Winkel.
+    \item<3-> b) Mit welcher Funktion kann man zu einem gegebenen Winkel $\alpha$ den Wasserstand berechnen? Berechne den Wasserstand 5 Stunden nach Beobachtungsbeginn.
+  \end{itemize}
+\end{frame}
 
-\noindent \textbf{L{"o}sung a)}
-\begin{align}
-  12h & \equalhat 360^\circ        & |:12\tag{1} \\
-  1h  & \equalhat 30^\circ \tag{2}
-\end{align}
-\noindent 12h in {\autoref{fig:sinuswelle}} entsprechen 360$^\circ$, also entspricht 1h dem Winkel 30$^\circ$.\\
-Daraus Folgt $\alpha = t \cdot 30^\circ$ und $t = \frac{\alpha}{30^\circ}$ (t in h). F{"u}r t = 5 erh{"a}lt man $\alpha = 5 \cdot 30^\circ = 150^\circ$
-\begin{align}
-  \alpha & = t \cdot 30^\circ     \nonumber      \\
-  t      & = \frac{\alpha}{30^\circ}   \nonumber
-\end{align}
-\begin{align}
-  \alpha & = 5 \cdot 30^\circ \tag{1} \\ & = 150^\circ \tag{2}
-\end{align}
-\noindent \textbf{L{"o}sung b)}\\
-Da der Wasserstand zwischen -0,2 und 0,2 um den Durchschnittswert pendelt (\autoref{fig:wasserstand}), gilt:
-\begin{align}
-  f(\alpha) & = 0,2 \cdot sin(\alpha)     \nonumber
-\end{align}
-\noindent F{"u}r t = 5:
-\begin{align}
-  \alpha       & = 5 \cdot 30^\circ     \tag{1}      \\
-               & = 150^\circ   \tag{2}               \\
-  f(150^\circ) & = 0,2 \cdot \sin(150^\circ) \tag{3} \\
-               & = 0,1 \tag{4}
-\end{align}\\
-\noindent Nach 5 Stunden liegt der Wasserstand 10cm {"u}ber dem Durchscnittswert.
+
+% \begin{frame}{a) L{"o}sung}
+%   \onslide<1->{Erl{"a}utere, wie man zu einem gegebenenen Zeitpunkt t die Winkelweite $\alpha$ erh{"a}lt und umgekehrt. Bestimme f{"u}r t = 5 (t in h) den zugeh{"o}rigen Winkel.}
+
+%   \begin{align}
+%     \onslide<1->{12h & \equalhat 360^\circ        & |:12\tag{1} \\}
+%     \onslide<2->{1h  & \equalhat 30^\circ \tag{2}}
+%   \end{align}
+
+%   \noindent 12h in \hyperref[fig:wasserstand]{Abbildung \autoref{fig:wasserstand}} entsprechen 360$^\circ$, also entspricht 1h dem Winkel 30$^\circ$.\\
+%   Daraus Folgt $\alpha = t \cdot 30^\circ$ und $t = \frac{\alpha}{30^\circ}$ (t in h). F{"u}r t = 5 erh{"a}lt man $\alpha = 5 \cdot 30^\circ = 150^\circ$
+
+%   \begin{align}
+%     \alpha & = t \cdot 30^\circ     \nonumber      \\
+%     t      & = \frac{\alpha}{30^\circ}   \nonumber
+%   \end{align}
+%   \begin{align}
+%     \alpha & = 5 \cdot 30^\circ \tag{1} \\ & = 150^\circ \tag{2}
+%   \end{align}
+% \end{frame}
+
+% \noindent \textbf{b) L{"o}sung}\\
+% Da der Wasserstand zwischen -0,2 und 0,2 um den Durchschnittswert pendelt (\autoref{fig:wasserstand}), gilt:
+% \begin{align}
+%   f(\alpha) & = 0,2 \cdot sin(\alpha)     \nonumber
+% \end{align}
+% \noindent F{"u}r t = 5:
+% \begin{align}
+%   \alpha       & = 5 \cdot 30^\circ     \tag{1}      \\
+%                & = 150^\circ   \tag{2}               \\
+%   f(150^\circ) & = 0,2 \cdot \sin(150^\circ) \tag{3} \\
+%                & = 0,1 \tag{4}
+% \end{align}\\
+% \noindent Nach 5 Stunden liegt der Wasserstand 10cm {"u}ber dem Durchschnittswert.
 
 
 \end{document}
