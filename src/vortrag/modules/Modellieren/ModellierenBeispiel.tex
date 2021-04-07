@@ -12,7 +12,7 @@
   \onslide<1->{Bei einem Shaufelraddampfer dreht sich das Rad mit dem Durchmesser 2 Meter einmal vollst{"a}ndig in 60 Sekunden(\hyperref[fig:schaufelraddamper]{Abbildung \autoref{fig:schaufelraddamper}}). In welcher H{"o}he {"u}ber dem Wasserspiegel liegt der rot markierte Punkt A?\\
   Erstelle eine Wertetabelle in 5 Sekunden-Schritten.}
 
-  \onslide<2->{
+  \onslide<1->{
     \begin{figure}[hb!]
       \center
       \def\svgwidth{150px}
@@ -23,7 +23,7 @@
   }
   
   \definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
-  \onslide<3->{
+  \onslide<2->{
     \begin{center}
       \begin{adjustbox}{width=0.8\textwidth}
         \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
@@ -42,21 +42,115 @@
 \end{frame}
 
 
+\begin{frame}{L{"o}sung}
+  \definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
+  \onslide<1->{
+    \begin{center}
+      \begin{adjustbox}{width=\textwidth}
+        \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c| }
+          \hline
+          \rowcolor{MyGrey}
+          Zeit t (in s)    & 0         & 5          & 10         & \onslide<2->{15}         & \onslide<3->{20}         & \onslide<4->{25}          & \onslide<1->{30}   \\
+          \hline
+          Winkel $\alpha$  & 0$^\circ$ & 30$^\circ$ & 60$^\circ$ & \onslide<5->{90$^\circ$} & \onslide<6->{120$^\circ$} & \onslide<7->{150$^\circ$} & \onslide<8->{180$^\circ$} \\
+          \hline
+          H{"o}he h (in m) & 0         & 0,5        & 0,87       & \onslide<9->{1}          & \onslide<10->{0,87}        & \onslide<11->{0,5}         & \onslide<12->{0}    \\
+          \hline
+        \end{tabular}
+      \end{adjustbox}
+    \end{center}
+  }
+  \onslide<1->{
+    \begin{figure}[hb!]
+      \center
+      \def\svgwidth{150px}
+      \input{tmp/schaufelraddamper.path.svg.pdf_tex}
+      \caption{Schaufelraddampfer}
+      \label{fig:schaufelraddamper}
+    \end{figure}
+  }
+\end{frame}
+
+\begin{frame}{L{"o}sung}
+  \definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
+
+  \onslide<1->{\begin{center}
+    \begin{adjustbox}{width=\textwidth}
+      \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c| }
+        \hline
+        \rowcolor{MyGrey}
+        Zeit t (in s) & 0 & 5 & 10 & 15 & 20 & 25 & 30 \\
+        \hline
+        Winkel $\alpha$  & 0$^\circ$ & 30$^\circ$ & 60$^\circ$ & 90$^\circ$ & 120$^\circ$ & 150$^\circ$ & 180$^\circ$ \\
+        \hline
+        H{"o}he h (in m) & 0 & 0,5 & 0,87 & 1 & 0,87 & 0,5 & 0 \\
+        \hline
+      \end{tabular}
+    \end{adjustbox}
+  \end{center}}
+
+  \onslide<1->{
+    \begin{center}
+      \begin{adjustbox}{width=\textwidth}
+        \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c| }
+          \hline
+          \rowcolor{MyGrey}
+          Zeit t (in s)   & \onslide<1->{35}          & \onslide<2->{40}          & \onslide<3->{45}          & \onslide<4->{50}          & \onslide<5->{55}          & \onslide<6->{60}           \\
+          \hline
+          Winkel $\alpha$  & \onslide<7->{210$^\circ$} & \onslide<8->{240$^\circ$} & \onslide<9->{270$^\circ$} & \onslide<10->{300$^\circ$} & \onslide<11->{330$^\circ$} & \onslide<12->{360$^\circ$} \\
+          \hline
+          H{"o}he h (in m) & \onslide<13->{-0,5}        & \onslide<14->{-0,87}       & \onslide<15->{-1}          & \onslide<16->{-0,87}       & \onslide<17->{-0,5}        & \onslide<18->{0}           \\
+          \hline
+        \end{tabular}
+      \end{adjustbox}
+    \end{center}
+  }
+
+  \onslide<1->{
+    \begin{figure}[hb!]
+      \center
+      \def\svgwidth{150px}
+      \input{tmp/schaufelraddamper.path.svg.pdf_tex}
+      \caption{Schaufelraddampfer}
+      \label{fig:schaufelraddamper}
+    \end{figure}
+  }
+\end{frame}
+
+
+\begin{frame}{L{"o}sung}
+  \definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
+  \onslide<1->{
+    \begin{center}
+      \begin{adjustbox}{width=\textwidth}
+        \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
+          \hline
+          \rowcolor{MyGrey}
+          Zeit t (in s)    & 0         & 5          & 10         & 15         & 20          & 25          & 30          & 35          & 40          & 45          & 50          & 55          & 60          \\
+          \hline
+          Winkel $\alpha$  & 0$^\circ$ & 30$^\circ$ & 60$^\circ$ & 90$^\circ$ & 120$^\circ$ & 150$^\circ$ & 180$^\circ$ & 210$^\circ$ & 240$^\circ$ & 270$^\circ$ & 300$^\circ$ & 330$^\circ$ & 360$^\circ$ \\
+          \hline
+          H{"o}he h (in m) & 0         & 0,5        & 0,87       & 1          & 0,87        & 0,5         & 0           & -0,5        & -0,87       & -1          & -0,87       & -0,5        & 0           \\
+          \hline
+        \end{tabular}
+      \end{adjustbox}
+    \end{center}
+  }
+
+  \onslide<1->{
+    \begin{figure}[hb!]
+      \center
+      \def\svgwidth{150px}
+      \input{tmp/schaufelraddamper.path.svg.pdf_tex}
+      \caption{Schaufelraddampfer}
+      \label{fig:schaufelraddamper}
+    \end{figure}
+  }
+\end{frame}
+
 
 % \noindent\textbf{L{"o}sung:}\\
 
-% \definecolor{MyGrey}{rgb}{0.8,0.8,0.8}
-% \begin{adjustbox}{width=\textwidth}
-%   \begin{tabular}{ |>{\columncolor{MyGrey}}c|c|c|c|c|c|c|c|c|c|c|c|c|c| }
-%     \hline
-%     \rowcolor{MyGrey}
-%     Zeit t (in s)    & 0         & 5          & 10         & 15         & 20          & 25          & 30          & 35          & 40          & 45          & 50          & 55          & 60          \\
-%     \hline
-%     Winkel $\alpha$  & 0$^\circ$ & 30$^\circ$ & 60$^\circ$ & 90$^\circ$ & 120$^\circ$ & 150$^\circ$ & 180$^\circ$ & 210$^\circ$ & 240$^\circ$ & 270$^\circ$ & 300$^\circ$ & 330$^\circ$ & 360$^\circ$ \\
-%     \hline
-%     H{"o}he h (in m) & 0         & 0,5        & 0,87       & 1          & 0,87        & 0,5         & 0           & -0,5        & -0,87       & -1          & -0,87       & -0,5        & 0           \\
-%     \hline
-%   \end{tabular}
-% \end{adjustbox}
+
 
 \end{document}
