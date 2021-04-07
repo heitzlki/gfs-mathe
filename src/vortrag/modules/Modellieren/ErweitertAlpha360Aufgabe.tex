@@ -1,47 +1,74 @@
 \documentclass{standalone}
 \begin{document}
 
-\subsection{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$  - Aufgabe}
+\begin{frame}
+  \begin{center}
+    Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$  - Aufgabe
+  \end{center}
+  \subsection{Erweiterter Winkel $\alpha$ mit 90$^\circ$  $<$ $\alpha$ $\leq$ 360$^\circ$  - Aufgabe}
+\end{frame}
 
-\noindent\textbf{Aufgabe:}\\
-Ein Punkt P bewegt sich auf dem Einheitskreis(\autoref{fig:alpha_0}) gegen den Uhrzeigersinn. F{"u}r $\alpha$ = 0$^\circ$  befindet er sich im Punkt(1|0)\\
-\textbf{a)} Gib die x- und y-Koordinaten des Punktes P f{"u}r $\alpha$ = 140$^\circ$  und f{"u}r $\alpha$ = 310$^\circ$  an.\\
-\textbf{b)} Bestimme zwei verschiedene Werte f{"u}r $\alpha$, sodass seine y-Koordinate 0,8 betr{"a}gt.\\
+\begin{frame}{Aufgabe}
+  \onslide<1->{Ein Punkt P bewegt sich auf dem Einheitskreis(\hyperref[fig:alpha_0]{Abbildung \autoref{fig:alpha_0}}) gegen den Uhrzeigersinn. F{"u}r $\alpha$ = 0$^\circ$  befindet er sich im Punkt(1|0).}
 
-\begin{figure}[hb!]
-  \centering
-  \def\svgwidth{200px}
-  \input{tmp/alpha_0.path.svg.pdf_tex}
-  \caption{$\alpha = 0^\circ $}
-  \label{fig:alpha_0}
-\end{figure}
+  \onslide<2->{Bestimme}
+  \onslide<3->{
+    \begin{itemize}
+      \item<3-> a) Gib die x- und y-Koordinaten des Punktes P f{"u}r $\alpha$ = 140$^\circ$  und f{"u}r $\alpha$ = 310$^\circ$ an.
+      \item<4-> b) Bestimme zwei verschiedene Werte f{"u}r $\alpha$, sodass seine y-Koordinate 0,8 betr{"a}gt.
+    \end{itemize}
+  }
+  
+  \onslide<1->{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{100px}
+      \input{tmp/alpha_0.path.svg.pdf_tex}
+      \caption{$\alpha = 0^\circ $}
+      \label{fig:alpha_0}
+    \end{figure} 
+  }
+\end{frame}
 
-\newpage
+\begin{frame}{a) L{"o}sung}\\
+  \onslide<1->{F{"u}r $\alpha$ = 140$^\circ$}\onslide<4->{: Punkt (\onslide<7->{-0,77}|\onslide<4->{0,64})}
+  \begin{align}
+    \onslide<2->{\sin(\alpha)     & = y \tag{1}           \\}
+    \onslide<3->{\sin(140^\circ ) & \approx} \onslide<4->{0,64 \tag{2}  \\}
+    \onslide<5->{\cos(\alpha)     & = x \tag{3}           \\}
+    \onslide<6->{\cos(140^\circ ) & \approx} \onslide<7->{-0,77 \tag{4} \\ \nonumber}
+  \end{align}
 
-\noindent\textbf{L{"o}sung a)}\\
-\noindent F{"u}r $\alpha$ = 140$^\circ$: Punkt (-0,77|0,64)
-\begin{align}
-  \sin(\alpha)     & = y \tag{1}           \\
-  \sin(140^\circ ) & \approx 0,64 \tag{2}  \\
-  \cos(\alpha)     & = x \tag{3}           \\
-  \cos(140^\circ ) & \approx -0,77 \tag{4}
-\end{align}
-\noindent F{"u}r $\alpha$ = 310$^\circ$: Punkt (0,64|-0,77)
-\begin{align}
-  \sin(\alpha)     & = y \tag{1}           \\
-  \sin(140^\circ ) & \approx -0,77 \tag{2} \\
-  \cos(\alpha)     & = x \tag{3}           \\
-  \cos(140^\circ ) & \approx 0,64 \tag{4}
-\end{align}
-\noindent\textbf{L{"o}sung b)}\\
-\noindent F{"u}r $\alpha_1$: $sin(53,1^\circ) \approx 0,8$
-\begin{align}
-  \sin^-^1(0,8) & \approx 53,1^\circ \tag{1}
-\end{align}
-\noindent F{"u}r $\alpha_2$: $\sin(126,9^\circ) \approx 0,8$
-\begin{align}
-  \sin^-^1(0,8)          & \approx 53,1^\circ \tag{1} \\
-  53,1^\circ - 180^\circ & = 126,9^\circ \tag{2}
-\end{align}
+  \onslide<8->{F{"u}r $\alpha$ = 310$^\circ$}\onslide<11->{: Punkt (\onslide<14->{0,64}|\onslide<11->{-0,77})}
+  \begin{align}
+    \onslide<9->{\sin(\alpha)     & = y \tag{1}           \\}
+    \onslide<10->{\sin(310^\circ ) & \approx} \onslide<11->{-0,77 \tag{2} \\}
+    \onslide<12->{\cos(\alpha)     & = x \tag{3}           \\}
+    \onslide<13->{\cos(310^\circ ) & \approx} \onslide<14->{0,64 \tag{4} \\ \nonumber}
+  \end{align}
+
+\end{frame}
+
+% \onslide<1->{F{"u}r $\alpha$ = 310$^\circ$}: Punkt (\onslide<7->{0,64}|\onslide<4->{-0,77})
+% \begin{align}
+%   \onslide<2->{\sin(\alpha)     & = y \tag{1}           \\}
+%   \onslide<3->{\sin(310^\circ ) & \approx} \onslide<4->{-0,77 \tag{2} \\}
+%   \onslide<5->{\cos(\alpha)     & = x \tag{3}           \\}
+%   \onslide<6->{\cos(310^\circ ) & \approx} \onslide<7->{0,64 \tag{4} \\ \nonumber}
+% \end{align}
+
+\begin{frame}{b) L{"o}sung}\\
+  \onslide<1->{F{"u}r $\alpha_1$}\onslide<4->{: $sin(53,1^\circ) \approx 0,8$}
+  \begin{align}
+    \onslide<2->{\sin^-^1(y) & = \alpha \tag{1}  \\}
+    \onslide<3->{\sin^-^1(0,8) & \approx} \onslide<4->{53,1^\circ \tag{2}  \\ \nonumber}
+  \end{align}
+
+  \onslide<5->{F{"u}r $\alpha_2$}\onslide<8->{: $\sin(126,9^\circ) \approx 0,8$}
+  \begin{align}
+    \onslide<6->{\sin^-^1(y) & = \alpha \tag{1}  \\}
+    \onslide<7->{53,1^\circ - 180^\circ & =} \onslide<8->{126,9^\circ \tag{2}  \\ \nonumber}
+  \end{align}
+\end{frame}
 
 \end{document}
