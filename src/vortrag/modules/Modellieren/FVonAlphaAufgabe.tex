@@ -29,39 +29,41 @@
 \end{frame}
 
 
-% \begin{frame}{a) L{"o}sung}
-%   \onslide<1->{Erl{"a}utere, wie man zu einem gegebenenen Zeitpunkt t die Winkelweite $\alpha$ erh{"a}lt und umgekehrt. Bestimme f{"u}r t = 5 (t in h) den zugeh{"o}rigen Winkel.}
+\begin{frame}{a) L{"o}sung}
+  % \setlength{\abovedisplayskip}{0pt}
+  % \setlength{\belowdisplayskip}{0pt}
 
-%   \begin{align}
-%     \onslide<1->{12h & \equalhat 360^\circ        & |:12\tag{1} \\}
-%     \onslide<2->{1h  & \equalhat 30^\circ \tag{2}}
-%   \end{align}
+  \onslide<1->{Erl{"a}utere, wie man zu einem gegebenenen Zeitpunkt t die Winkelweite $\alpha$ erh{"a}lt und umgekehrt. Bestimme f{"u}r t = 5 (t in h) den zugeh{"o}rigen Winkel.}
+  \begin{align}
+    \onslide<2->{12h & \equalhat 360^\circ        & |:12 \tag{1} \\}
+    \onslide<3->{1h  & \equalhat 30^\circ \tag{2} \\[-\baselineskip]\notag}
+  \end{align}
 
-%   \noindent 12h in \hyperref[fig:wasserstand]{Abbildung \autoref{fig:wasserstand}} entsprechen 360$^\circ$, also entspricht 1h dem Winkel 30$^\circ$.\\
-%   Daraus Folgt $\alpha = t \cdot 30^\circ$ und $t = \frac{\alpha}{30^\circ}$ (t in h). F{"u}r t = 5 erh{"a}lt man $\alpha = 5 \cdot 30^\circ = 150^\circ$
+  \onslide<4->{12h in \hyperref[fig:wasserstand]{Abbildung \autoref{fig:wasserstand}} entsprechen 360$^\circ$, also entspricht 1h dem Winkel 30$^\circ$.\\
+  Daraus Folgt $\alpha = t \cdot 30^\circ$ (t in h).}
+  \begin{align}
+    \onslide<5->{\alpha & = t \cdot 30^\circ \nonumber \\}
+    \onslide<6->{\alpha & = 5 \cdot 30^\circ \tag{1} \\}
+    \onslide<7->{\alpha & = 150^\circ \tag{2} \\[-\baselineskip]\notag}
+  \end{align}
+  \onslide<8->{F{"u}r t = 5 erh{"a}lt man $\alpha = 150^\circ$}
+\end{frame}
 
-%   \begin{align}
-%     \alpha & = t \cdot 30^\circ     \nonumber      \\
-%     t      & = \frac{\alpha}{30^\circ}   \nonumber
-%   \end{align}
-%   \begin{align}
-%     \alpha & = 5 \cdot 30^\circ \tag{1} \\ & = 150^\circ \tag{2}
-%   \end{align}
-% \end{frame}
+\begin{frame}{b) L{"o}sung}
+  \onslide<1->{Da der Wasserstand zwischen -0,2 und 0,2 um den Durchschnittswert pendelt (\autoref{fig:wasserstand}), gilt:}
+  \begin{align}
+    \onslide<2->{f(\alpha) & = 0,2 \cdot sin(\alpha)  \nonumber \\[-\baselineskip]\notag}
+  \end{align}
 
-% \noindent \textbf{b) L{"o}sung}\\
-% Da der Wasserstand zwischen -0,2 und 0,2 um den Durchschnittswert pendelt (\autoref{fig:wasserstand}), gilt:
-% \begin{align}
-%   f(\alpha) & = 0,2 \cdot sin(\alpha)     \nonumber
-% \end{align}
-% \noindent F{"u}r t = 5:
-% \begin{align}
-%   \alpha       & = 5 \cdot 30^\circ     \tag{1}      \\
-%                & = 150^\circ   \tag{2}               \\
-%   f(150^\circ) & = 0,2 \cdot \sin(150^\circ) \tag{3} \\
-%                & = 0,1 \tag{4}
-% \end{align}\\
-% \noindent Nach 5 Stunden liegt der Wasserstand 10cm {"u}ber dem Durchschnittswert.
+  \onslide<3->{F{"u}r t = 5:}
+  \begin{align}
+    \onslide<4->{\alpha        & = 5 \cdot 30^\circ          \tag{1} \\}
+                  \onslide<5->{& = 150^\circ                 \tag{2} \\}
+    \onslide<6->{f(150^\circ)  & = 0,2 \cdot \sin(150^\circ) \tag{3} \\}
+                  \onslide<7->{& = 0,1                       \tag{4} \\[-\baselineskip]\notag}
+  \end{align}
 
+  \onslide<8->{Nach 5 Stunden liegt der Wasserstand 10cm {"u}ber dem Durchschnittswert.}
+\end{frame} 
 
 \end{document}
