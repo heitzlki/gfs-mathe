@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="165.46899mm"
+   height="82.866997mm"
+   viewBox="0 0 165.469 82.866997"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="rechtwinkliges_dreieck_sinus_def_gegenkathete.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.28"
+     inkscape:cx="353.87775"
+     inkscape:cy="197.16694"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1340"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showborder="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1077"
+       transform="translate(-19.087372,-33.167972)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.043847"
+         x="136.04904"
+         y="268.59763"
+         id="text1028"><tspan
+           sodipodi:role="line"
+           id="tspan1026"
+           x="136.04904"
+           y="268.59763"
+           style="stroke-width:0.043847" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+         x="169.57494"
+         y="275.71509"
+         id="text1046"><tspan
+           sodipodi:role="line"
+           id="tspan1044"
+           x="169.57494"
+           y="275.71509"
+           style="stroke-width:0.264583" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+         x="39.275169"
+         y="297.49222"
+         id="text1140"><tspan
+           sodipodi:role="line"
+           id="tspan1138"
+           x="39.275169"
+           y="297.49222"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847" /></text>
+      <g
+         id="g1340"
+         transform="translate(6.5496797,8.8416981)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+           x="113.77728"
+           y="-109.18575"
+           id="text1276"
+           transform="rotate(60,-1.0399036e-6,4.4883416e-7)"><tspan
+             sodipodi:role="line"
+             id="tspan1272"
+             x="113.77728"
+             y="-109.18575"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Gegenkathete </tspan><tspan
+             sodipodi:role="line"
+             x="113.77728"
+             y="-100.89974"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             id="tspan1274">von α</tspan></text>
+        <path
+           id="path1278"
+           style="fill:#00ff00;fill-opacity:0.622057;stroke:#00ff00;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 45.599005,84.099078 -25.97228,14.9949 h 29.98983 a 31.777635,31.777635 0 0 0 -4.01755,-14.9949 z" />
+        <path
+           id="path1280"
+           style="fill:#0066ff;fill-opacity:0.615959;stroke:#0066ff;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 132.87949,33.707452 -16.67638,9.628434 a 19.256453,19.256453 0 0 0 16.67638,9.628432 19.256453,19.256453 0 0 0 9.62843,-2.58048 z" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 170.63043,99.093978 132.87949,33.707452 19.626725,99.093978 Z"
+           id="path1284" />
+        <g
+           aria-label="α"
+           transform="translate(-27.587115,-6.0035707)"
+           id="g1308"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">
+          <path
+             d="M 66.336409,100.37453 66.193993,99.626844 Q 66.04834,98.85974 65.472204,98.85974 q -0.433721,0 -0.631161,0.35604 -0.249228,0.446667 -0.249228,1.03575 0,0.71208 0.242754,1.05194 0.245991,0.34633 0.637635,0.34633 0.433721,0 0.666765,-0.68943 z m 0.333382,-0.990441 0.320436,-0.94836 h 0.530823 l -0.663529,1.964691 0.129469,0.70884 q 0.02913,0.1586 0.142416,0.29131 0.132706,0.15536 0.236281,0.15536 h 0.284832 v 0.50493 h -0.35604 q -0.304252,0 -0.576137,-0.27189 -0.132705,-0.13594 -0.18773,-0.42077 -0.148889,0.35928 -0.453141,0.64087 -0.142416,0.13271 -0.605267,0.13271 -0.76063,0 -1.129617,-0.49198 -0.378697,-0.50817 -0.378697,-1.39827 0,-0.951596 0.411064,-1.398263 0.456378,-0.498456 1.09725,-0.498456 1.006621,0 1.197587,1.029278 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             id="path1306" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+           x="128.05377"
+           y="43.907391"
+           id="text863"><tspan
+             sodipodi:role="line"
+             id="tspan861"
+             x="128.05377"
+             y="43.907391"
+             style="stroke-width:0.264583">.</tspan></text>
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:1.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 170.43739,99.093988 132.68645,33.707461"
+           id="path867" />
+      </g>
+    </g>
+  </g>
+</svg>
