@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="165.46899mm"
+   height="86.866997mm"
+   viewBox="0 0 165.469 86.866997"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="hypotenuse_1_cos.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="282.86316"
+     inkscape:cy="171.23307"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1340"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showborder="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-page="true"
+     inkscape:snap-global="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1077"
+       transform="translate(-19.087372,-33.167972)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.043847"
+         x="136.04904"
+         y="268.59763"
+         id="text1028"><tspan
+           sodipodi:role="line"
+           id="tspan1026"
+           x="136.04904"
+           y="268.59763"
+           style="stroke-width:0.043847" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+         x="169.57494"
+         y="275.71509"
+         id="text1046"><tspan
+           sodipodi:role="line"
+           id="tspan1044"
+           x="169.57494"
+           y="275.71509"
+           style="stroke-width:0.264583" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+         x="39.275169"
+         y="297.49222"
+         id="text1140"><tspan
+           sodipodi:role="line"
+           id="tspan1138"
+           x="39.275169"
+           y="297.49222"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847" /></text>
+      <g
+         id="g1340"
+         transform="translate(6.5496797,8.8416981)">
+        <g
+           id="g888"
+           transform="translate(260.44881,-17.489873)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             x="113.77728"
+             y="-109.18575"
+             id="text1276"
+             transform="rotate(60,-1.0399036e-6,4.4883416e-7)"><tspan
+               sodipodi:role="line"
+               id="tspan1272"
+               x="113.77728"
+               y="-109.18575"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Gegenkathete </tspan><tspan
+               sodipodi:role="line"
+               x="113.77728"
+               y="-100.89974"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               id="tspan1274">von α</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+             x="12.488083"
+             y="101.90311"
+             id="text1270"><tspan
+               sodipodi:role="line"
+               id="tspan1268"
+               x="12.488083"
+               y="101.90311"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847">A</tspan></text>
+          <path
+             id="path1278"
+             style="fill:#00ff00;fill-opacity:0.622057;stroke:#00ff00;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 45.599005,84.099078 -25.97228,14.9949 h 29.98983 a 31.777635,31.777635 0 0 0 -4.01755,-14.9949 z" />
+          <path
+             id="path1280"
+             style="fill:#0066ff;fill-opacity:0.615959;stroke:#0066ff;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 132.87949,33.707452 -16.67638,9.628434 a 19.256453,19.256453 0 0 0 16.67638,9.628432 19.256453,19.256453 0 0 0 9.62843,-2.58048 z" />
+          <path
+             id="path1282"
+             style="fill:#ff2a2a;fill-opacity:0.428166;stroke:#ff0000;stroke-width:1.00265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             d="m 158.37982,77.875608 a 25.159967,25.159967 0 0 0 -12.25213,21.21837 h 24.50274 z" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 170.63043,99.093978 132.87949,33.707452 19.626725,99.093978 Z"
+             id="path1284" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             x="156.25783"
+             y="93.628761"
+             id="text1288"><tspan
+               sodipodi:role="line"
+               id="tspan1286"
+               x="156.25783"
+               y="93.628761"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">β</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             x="128.6537"
+             y="19.072117"
+             id="text1292"
+             inkscape:transform-center-x="1.1229914"
+             inkscape:transform-center-y="-1.5206299"
+             transform="rotate(16.946383)"><tspan
+               sodipodi:role="line"
+               id="tspan1290"
+               x="128.6537"
+               y="19.072117"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">γ=90°</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             x="173.49513"
+             y="103.1116"
+             id="text1296"><tspan
+               sodipodi:role="line"
+               id="tspan1294"
+               x="173.49513"
+               y="103.1116"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">B</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             x="130.76848"
+             y="29.246094"
+             id="text1300"><tspan
+               sodipodi:role="line"
+               id="tspan1298"
+               x="130.76848"
+               y="29.246094"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">C</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+             x="-2.0194879"
+             y="91.351616"
+             id="text1304"
+             transform="rotate(-30)"><tspan
+               sodipodi:role="line"
+               id="tspan1302"
+               x="-2.0194879"
+               y="91.351616"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847">Ankathete von Winkel α</tspan></text>
+          <g
+             aria-label="α"
+             transform="translate(-27.587115,-6.0035707)"
+             id="g1308"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">
+            <path
+               d="M 66.336409,100.37453 66.193993,99.626844 Q 66.04834,98.85974 65.472204,98.85974 q -0.433721,0 -0.631161,0.35604 -0.249228,0.446667 -0.249228,1.03575 0,0.71208 0.242754,1.05194 0.245991,0.34633 0.637635,0.34633 0.433721,0 0.666765,-0.68943 z m 0.333382,-0.990441 0.320436,-0.94836 h 0.530823 l -0.663529,1.964691 0.129469,0.70884 q 0.02913,0.1586 0.142416,0.29131 0.132706,0.15536 0.236281,0.15536 h 0.284832 v 0.50493 h -0.35604 q -0.304252,0 -0.576137,-0.27189 -0.132705,-0.13594 -0.18773,-0.42077 -0.148889,0.35928 -0.453141,0.64087 -0.142416,0.13271 -0.605267,0.13271 -0.76063,0 -1.129617,-0.49198 -0.378697,-0.50817 -0.378697,-1.39827 0,-0.951596 0.411064,-1.398263 0.456378,-0.498456 1.09725,-0.498456 1.006621,0 1.197587,1.029278 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               id="path1306" />
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             x="76.303543"
+             y="105.81451"
+             id="text1312"><tspan
+               sodipodi:role="line"
+               id="tspan1310"
+               x="76.303543"
+               y="105.81451"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Hypotenuse</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+             x="128.05377"
+             y="43.907391"
+             id="text863"><tspan
+               sodipodi:role="line"
+               id="tspan861"
+               x="128.05377"
+               y="43.907391"
+               style="stroke-width:0.264583">.</tspan></text>
+        </g>
+        <g
+           id="g940"
+           transform="matrix(1,0,0,-1,-274.74305,189.68291)">
+          <g
+             id="g967"
+             transform="translate(72.006995,35.821116)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               x="122.68097"
+               y="-114.5445"
+               id="text894"
+               transform="rotate(90)"><tspan
+                 sodipodi:role="line"
+                 id="tspan890"
+                 x="122.68097"
+                 y="-114.5445"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Gegenkathete </tspan><tspan
+                 sodipodi:role="line"
+                 x="122.68097"
+                 y="-106.25849"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+                 id="tspan892">von α</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+               x="21.580742"
+               y="106.93455"
+               id="text898"
+               transform="rotate(30)"><tspan
+                 sodipodi:role="line"
+                 id="tspan896"
+                 x="21.580742"
+                 y="106.93455"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847">A</tspan></text>
+            <path
+               id="path900"
+               style="fill:#00ff00;fill-opacity:0.622057;stroke:#00ff00;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 2.7991107,104.53513 -29.9901047,-1.8e-4 25.971955,14.99492 a 31.777635,31.777635 0 0 0 4.0181497,-14.99474 z" />
+            <path
+               id="path902"
+               style="fill:#0066ff;fill-opacity:0.615959;stroke:#0066ff;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 103.58204,104.53494 -19.256385,2.8e-4 a 19.256453,19.256453 0 0 0 9.627953,16.67666 19.256453,19.256453 0 0 0 9.628702,2.57945 z" />
+            <path
+               id="path904"
+               style="fill:#ff2a2a;fill-opacity:0.428166;stroke:#ff0000;stroke-width:1.00265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+               d="M 103.5819,155.53585 A 25.159967,25.159967 45 0 0 82.362056,167.78543 L 103.58205,180.0368 Z" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:1.079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 103.58205,180.0368 -10e-6,-75.50186 -130.773034,10e-6 z"
+               id="path906" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               x="165.35049"
+               y="98.660202"
+               id="text910"
+               transform="rotate(30)"><tspan
+                 sodipodi:role="line"
+                 id="tspan908"
+                 x="165.35049"
+                 y="98.660202"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">β</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               x="138.81808"
+               y="21.234785"
+               id="text914"
+               inkscape:transform-center-x="1.9581357"
+               inkscape:transform-center-y="-0.13910621"
+               transform="rotate(46.946383)"><tspan
+                 sodipodi:role="line"
+                 id="tspan912"
+                 x="138.81808"
+                 y="21.234785"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">γ=90°</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               x="182.5878"
+               y="108.14304"
+               id="text918"
+               transform="rotate(30)"><tspan
+                 sodipodi:role="line"
+                 id="tspan916"
+                 x="182.5878"
+                 y="108.14304"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">B</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               x="139.86115"
+               y="34.277534"
+               id="text922"
+               transform="rotate(30)"><tspan
+                 sodipodi:role="line"
+                 id="tspan920"
+                 x="139.86115"
+                 y="34.277534"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">C</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+               x="3.3392651"
+               y="100.2553"
+               id="text926"><tspan
+                 sodipodi:role="line"
+                 id="tspan924"
+                 x="3.3392651"
+                 y="100.2553"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847">Ankathete von Winkel α</tspan></text>
+            <path
+               d="m -8.2688536,110.00598 0.2505071,-0.71872 q 0.2574128,-0.73716 -0.2415356,-1.02523 -0.3756134,-0.21686 -0.7246215,-0.007 -0.4391713,0.26221 -0.7337128,0.77237 -0.3560396,0.61668 -0.3157386,1.03239 0.039869,0.42292 0.3790429,0.61874 0.3756134,0.21686 0.9221504,-0.26368 z m 0.7839377,-0.69106 0.7516858,-0.66108 0.4597062,0.26541 -1.5569785,1.36971 -0.2422966,0.67861 q -0.054073,0.15191 -0.022319,0.32349 0.037247,0.20089 0.1269454,0.25268 l 0.2466717,0.14242 -0.252465,0.43728 -0.3083397,-0.17802 q -0.2634899,-0.15213 -0.3630043,-0.52353 -0.046956,-0.18408 0.047806,-0.45826 -0.3085817,0.2367 -0.7128666,0.32843 -0.1896909,0.0437 -0.5905316,-0.1877 -0.6587249,-0.38031 -0.7322869,-0.99087 -0.07388,-0.62944 0.371174,-1.40029 0.4757976,-0.82411 1.055123,-1.0054 0.6444629,-0.20349 1.1994744,0.11695 0.8717593,0.50331 0.5225017,1.49017 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               id="path928" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+               x="85.396202"
+               y="110.84595"
+               id="text934"
+               transform="rotate(30)"><tspan
+                 sodipodi:role="line"
+                 id="tspan932"
+                 x="85.396202"
+                 y="110.84595"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Hypotenuse</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+               x="137.14644"
+               y="48.938831"
+               id="text938"
+               transform="rotate(30)"><tspan
+                 sodipodi:role="line"
+                 id="tspan936"
+                 x="137.14644"
+                 y="48.938831"
+                 style="stroke-width:0.264583">.</tspan></text>
+          </g>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+           x="268.2767"
+           y="-211.0526"
+           id="text973"
+           transform="rotate(60)"><tspan
+             sodipodi:role="line"
+             id="tspan969"
+             x="268.2767"
+             y="-211.0526"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Gegenkathete </tspan><tspan
+             sodipodi:role="line"
+             x="268.2767"
+             y="-202.76659"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             id="tspan971">von α</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+           x="177.95708"
+           y="184.77011"
+           id="text977"><tspan
+             sodipodi:role="line"
+             id="tspan975"
+             x="177.95708"
+             y="184.77011"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847">A</tspan></text>
+        <path
+           id="path979"
+           style="fill:#00ff00;fill-opacity:0.622057;stroke:#00ff00;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 51.293996,85.465726 -25.97228,14.994904 h 29.98983 a 31.777635,31.777635 0 0 0 -4.01755,-14.994904 z" />
+        <path
+           id="path981"
+           style="fill:#0066ff;fill-opacity:0.615959;stroke:#0066ff;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 156.09475,100.46064 -2.8e-4,-19.256394 a 19.256453,19.256453 0 0 0 -16.67666,9.62796 19.256453,19.256453 0 0 0 -2.57945,9.628704 z" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 156.09476,24.958774 -1e-5,75.501866 -130.773034,-1e-5 z"
+           id="path985" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+           x="311.09149"
+           y="50.110508"
+           id="text993"
+           inkscape:transform-center-x="1.1229914"
+           inkscape:transform-center-y="-1.5206299"
+           transform="rotate(16.946383)"><tspan
+             sodipodi:role="line"
+             id="tspan991"
+             x="311.09149"
+             y="50.110508"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">γ=90°</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+           x="338.96411"
+           y="185.97861"
+           id="text997"><tspan
+             sodipodi:role="line"
+             id="tspan995"
+             x="338.96411"
+             y="185.97861"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">B</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+           x="296.23746"
+           y="112.11309"
+           id="text1001"><tspan
+             sodipodi:role="line"
+             id="tspan999"
+             x="296.23746"
+             y="112.11309"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847"
+           x="263.58963"
+           y="321.28885"
+           id="text1005"
+           transform="rotate(-30)"><tspan
+             sodipodi:role="line"
+             id="tspan1003"
+             x="263.58963"
+             y="321.28885"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.043847">Ankathete von Winkel α</tspan></text>
+        <g
+           aria-label="α"
+           transform="translate(-21.892124,-4.6369233)"
+           id="g1009"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">
+          <path
+             d="M 66.336409,100.37453 66.193993,99.626844 Q 66.04834,98.85974 65.472204,98.85974 q -0.433721,0 -0.631161,0.35604 -0.249228,0.446667 -0.249228,1.03575 0,0.71208 0.242754,1.05194 0.245991,0.34633 0.637635,0.34633 0.433721,0 0.666765,-0.68943 z m 0.333382,-0.990441 0.320436,-0.94836 h 0.530823 l -0.663529,1.964691 0.129469,0.70884 q 0.02913,0.1586 0.142416,0.29131 0.132706,0.15536 0.236281,0.15536 h 0.284832 v 0.50493 h -0.35604 q -0.304252,0 -0.576137,-0.27189 -0.132705,-0.13594 -0.18773,-0.42077 -0.148889,0.35928 -0.453141,0.64087 -0.142416,0.13271 -0.605267,0.13271 -0.76063,0 -1.129617,-0.49198 -0.378697,-0.50817 -0.378697,-1.39827 0,-0.951596 0.411064,-1.398263 0.456378,-0.498456 1.09725,-0.498456 1.006621,0 1.197587,1.029278 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             id="path1007" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+           x="23.604464"
+           y="96.398643"
+           id="text1013"
+           transform="rotate(-30)"><tspan
+             sodipodi:role="line"
+             id="tspan1011"
+             x="23.604464"
+             y="96.398643"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Hypotenuse = 1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+           x="4.128366"
+           y="-175.2124"
+           id="text1017"
+           transform="rotate(120)"><tspan
+             sodipodi:role="line"
+             id="tspan1015"
+             x="4.128366"
+             y="-175.2124"
+             style="stroke-width:0.264583">.</tspan></text>
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 25.321716,100.46063 156.09475,24.958774"
+           id="path1021" />
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 156.09475,100.46064 1e-5,-75.501866"
+           id="path914"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="53.909863"
+           y="-160.96736"
+           id="text942"
+           transform="rotate(90)"><tspan
+             sodipodi:role="line"
+             id="tspan940"
+             x="53.909863"
+             y="-160.96736"
+             style="stroke-width:0.264583">sin(α)</tspan></text>
+        <path
+           id="path950"
+           style="fill:#00ff00;fill-opacity:0.622057;stroke:#00ff00;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 5.3338971,-18.214993 -20.638383,-3.2200888 H 9.3514471 a 31.777635,31.777635 0 0 0 -4.01755,-14.9949042 z" />
+        <path
+           id="path952"
+           style="fill:#0066ff;fill-opacity:0.615959;stroke:#0066ff;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 110.13465,-3.2200788 -2.8e-4,-19.2563942 a 19.256453,19.256453 0 0 0 -16.676659,9.62796 19.256453,19.256453 0 0 0 -2.57945,9.6287042 z" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 110.13466,-78.721945 -1e-5,75.5018662 -130.773033,-1e-5 z"
+           id="path954" />
+        <g
+           aria-label="α"
+           transform="translate(-67.852223,-108.31764)"
+           id="g958"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">
+          <path
+             d="M 66.336409,100.37453 66.193993,99.626844 Q 66.04834,98.85974 65.472204,98.85974 q -0.433721,0 -0.631161,0.35604 -0.249228,0.446667 -0.249228,1.03575 0,0.71208 0.242754,1.05194 0.245991,0.34633 0.637635,0.34633 0.433721,0 0.666765,-0.68943 z m 0.333382,-0.990441 0.320436,-0.94836 h 0.530823 l -0.663529,1.964691 0.129469,0.70884 q 0.02913,0.1586 0.142416,0.29131 0.132706,0.15536 0.236281,0.15536 h 0.284832 v 0.50493 h -0.35604 q -0.304252,0 -0.576137,-0.27189 -0.132705,-0.13594 -0.18773,-0.42077 -0.148889,0.35928 -0.453141,0.64087 -0.142416,0.13271 -0.605267,0.13271 -0.76063,0 -1.129617,-0.49198 -0.378697,-0.50817 -0.378697,-1.39827 0,-0.951596 0.411064,-1.398263 0.456378,-0.498456 1.09725,-0.498456 1.006621,0 1.197587,1.029278 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+             id="path956" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.62881px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721"
+           x="35.642208"
+           y="-16.371542"
+           id="text962"
+           transform="rotate(-30)"><tspan
+             sodipodi:role="line"
+             id="tspan960"
+             x="35.642208"
+             y="-16.371542"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.165721">Hypotenuse = 1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+           x="-62.681721"
+           y="-83.569427"
+           id="text966"
+           transform="rotate(120)"><tspan
+             sodipodi:role="line"
+             id="tspan964"
+             x="-62.681721"
+             y="-83.569427"
+             style="stroke-width:0.264583">.</tspan></text>
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M -20.638383,-3.2200888 110.13465,-78.721945"
+           id="path968" />
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 110.13465,-3.2200788 1e-5,-75.5018662"
+           id="path970"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="-68.475128"
+           y="-115.00726"
+           id="text974"
+           transform="rotate(90)"><tspan
+             sodipodi:role="line"
+             id="tspan972"
+             x="-68.475128"
+             y="-115.00726"
+             style="stroke-width:0.264583">Gegenkathete von α</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="78.957047"
+           y="108.17324"
+           id="text978"><tspan
+             sodipodi:role="line"
+             id="tspan976"
+             x="78.957047"
+             y="108.17324"
+             style="stroke-width:0.264583">cos(α)</tspan></text>
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:1.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 156.09475,100.46064 -130.773034,-1e-5"
+           id="path980"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+  </g>
+</svg>
