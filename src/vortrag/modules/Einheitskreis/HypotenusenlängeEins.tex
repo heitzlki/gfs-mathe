@@ -1,0 +1,68 @@
+\documentclass{standalone}
+\begin{document}
+
+\begin{frame}
+  \begin{center}
+    Hypotenusenl{"a}nge 1
+  \end{center}
+  \subsection{Hypotenusenl{"a}nge 1}
+\end{frame}
+
+\begin{frame}{Hypotenusenl{"a}nge 1}
+  \onslide<1->{Betr{"a}gt in einem rechtwinkligen Dreieck die Hypotenusenl{"a}nge in einer vorgegebenen L{"a}ngeneinheit 1, so lassen sich Sinus und Kosinus besonderst einfach darstellen.}
+  \only<2-4>{
+    \begin{align}
+      \onslide<2->{\sin(\alpha) & = \dfrac{\text{Gegenkathete von $\alpha$}}{\text{Hypotenuse}}} \nonumber \\
+      \onslide<3->{\sin(\alpha) & = \dfrac{\text{Gegenkathete von $\alpha$}}{\text{1}}} \nonumber \\
+      \onslide<4->{\sin(\alpha) & = \text{Gegenkathete von $\alpha$} &= \sin(\alpha)} \nonumber \\[-\baselineskip]\nonumber
+    \end{align}
+  }
+
+  \only<5-7>{
+    \begin{align}
+      \onslide<5->{\cos(\alpha) & = \dfrac{\text{Ankathete von $\alpha$}}{\text{Hypotenuse}}} \nonumber \\
+      \onslide<6->{\cos(\alpha) & = \dfrac{\text{Ankathete von $\alpha$}}{\text{1}}} \nonumber \\
+      \onslide<7->{\cos(\alpha) & = \text{Ankathete von $\alpha$} &= \cos(\alpha)} \nonumber \\[-\baselineskip]\nonumber
+    \end{align}
+  }
+
+  \only<3>{
+    \begin{figure}[hb!]
+      \center
+      \def\svgwidth{150px}
+      \input{tmp/hypotenuse_1_gegenkathete.path.svg.pdf_tex}
+      \caption{Hypotenusenl{"a}nge 1}
+      \label{fig:hypotenuse_1_gegenkathete}
+    \end{figure}
+  }
+  \only<4>{
+    \begin{figure}[hb!]
+      \center
+      \def\svgwidth{150px}
+      \input{tmp/hypotenuse_1_sin.path.svg.pdf_tex}
+      \caption{Hypotenusenl{"a}nge 1}
+      \label{fig:hypotenuse_1_sin}
+    \end{figure}
+  }
+
+  \only<6>{
+    \begin{figure}[hb!]
+      \center
+      \def\svgwidth{150px}
+      \input{tmp/hypotenuse_1_ankathete.path.svg.pdf_tex}
+      \caption{Hypotenusenl{"a}nge 1}
+      \label{fig:hypotenuse_1_ankathete}
+    \end{figure}
+  }
+  \only<7>{
+    \begin{figure}[hb!]
+      \center
+      \def\svgwidth{150px}
+      \input{tmp/hypotenuse_1_cos.path.svg.pdf_tex}
+      \caption{Hypotenusenl{"a}nge 1}
+      \label{fig:hypotenuse_1_cos}
+    \end{figure}
+  }
+\end{frame}
+
+\end{document}
