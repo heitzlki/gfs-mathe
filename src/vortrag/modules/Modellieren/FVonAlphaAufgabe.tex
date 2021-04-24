@@ -50,17 +50,31 @@
 \end{frame}
 
 \begin{frame}{b) L{"o}sung}
-  \onslide<1->{Da der Wasserstand zwischen -0,2 und 0,2 um den Durchschnittswert pendelt (\autoref{fig:wasserstand}), gilt:}
+  \only<1>{Mit welcher Funktion kann man zu einem gegebenen Winkel $\alpha$ den Wasserstand berechnen? Berechne den Wasserstand 5 Stunden nach Beobachtungsbeginn.}
+  \only<1>{
+    \begin{figure}[hb!]
+      \centering
+      \def\svgwidth{300px}
+      \input{tmp/wasserstand.path.svg.pdf_tex}
+      \caption{Wasserstand}
+      \label{fig:wasserstand_two}
+    \end{figure}
+  }
+
+  \onslide<2->{Da der Wasserstand zwischen -0,2 und 0,2 um den Durchschnittswert pendelt (\hyperref[fig:wasserstand_two]{Abbildung \autoref{fig:wasserstand_two}}), gilt:}
+
   \begin{align}
-    \onslide<2->{f(\alpha) & = 0,2 \cdot sin(\alpha)  \nonumber \\[-\baselineskip]\notag}
+    \onslide<3->{f(\alpha) & =  sin(\alpha)} \nonumber \\
+    \onslide<4->{f(\alpha) & = 1 \cdot sin(\alpha)}  \nonumber \\
+    \onslide<5->{f(\alpha) & = \onslide<7->{0,2 \cdot} \onslide<6->{sin(\alpha)}  \nonumber \\[-\baselineskip]\notag}
   \end{align}
 
-  \onslide<3->{F{"u}r t = 5:}
+  \onslide<8->{F{"u}r t = 5:}
   \begin{align}
-    \onslide<4->{\alpha        & = 5 \cdot 30^\circ          \tag{1} \\}
-                  \onslide<5->{& = 150^\circ                 \tag{2} \\}
-    \onslide<6->{f(150^\circ)  & = 0,2 \cdot \sin(150^\circ) \tag{3} \\}
-                  \onslide<7->{& = 0,1                       \tag{4} \\[-\baselineskip]\notag}
+    \onslide<9->{\alpha         & = 5 \cdot 30^\circ          \tag{1} \\}
+    \onslide<10->{\alpha        & = 150^\circ                 \tag{2} \\}
+    \onslide<11->{f(\onslide<12->{150^\circ})  & = \onslide<13->{0,2 \cdot \sin(\onslide<14->{150^\circ})} \tag{3} \\}
+    \onslide<15->{f(150^\circ)  & = 0,1                       \tag{4} \\[-\baselineskip]\notag}
   \end{align}
 \end{frame}
 
