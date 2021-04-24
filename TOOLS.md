@@ -22,6 +22,12 @@
 sudo apt-get install texmaker
 ```
 
+#### fix beamer.cls issue
+
+```
+sudo apt install texlive-latex-recommended
+```
+
 ##### Ubuntuusers Wiki - Texmaker - (26.2.2021)
 
 https://wiki.ubuntuusers.de/Texmaker/
