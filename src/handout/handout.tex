@@ -1,0 +1,48 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[german]{babel} %deutsche Sprache
+\usepackage{amsmath} %für Formeln
+\usepackage{amsfonts} %Für Text in Formeln
+\usepackage{amssymb} %Für mathematische Symbole
+\usepackage{graphicx} %Für Bilder
+\UseRawInputEncoding
+
+\usepackage[absolute]{textpos}%Grafiken Positionieren
+
+\usepackage{import} %für .pdf_tex Grafiken
+\usepackage{color} %für .pdf_tex Grafiken
+\usepackage{transparent} %für .pdf_tex Grafiken
+\graphicspath{{tmp/}} %für .pdf_tex Grafiken
+\usepackage{wrapfig} %Um Text neben Bildern zu positionieren
+
+\usepackage{multicol} %Für mehr-spaltigen Text
+\usepackage{xcolor,colortbl} %Für z.B Farben in Tabellen
+
+\usepackage{hyperref} %Für Links wie z.B Abbildung X
+\hypersetup{
+	hidelinks
+} %Um Link-Stile zu deaktivieren
+
+\usepackage{adjustbox}%Um Elemente auf Seitenlänge zu bringen
+\usepackage{standalone}%Um das Dokument aufzuteilen
+\usepackage{ marvosym } %Füt lightning symbol
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+
+\usepackage{scalerel,stackengine,amsmath} % Für ein "entspricht" Zeichen
+\newcommand\equalhat{\mathrel{\stackon[1.5pt]{=}{\stretchto{%
+    \scalerel*[\widthof{=}]{\wedge}{\rule{1ex}{3ex}}}{0.5ex}}}}
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}  %Dokument Rand etc. einstellen
+%\renewcommand{\familydefault}{\sfdefault} %sans-serif Schriftart
+\title{Mit dem Sinus modellieren}
+\author{Kirill Heitzler}
+\date{29. April 2021}%\date{\today}
+
+\begin{document}
+
+\input{modules/Zusammenfassung/Zusammenfassung.tex}
+
+\end{document}
+

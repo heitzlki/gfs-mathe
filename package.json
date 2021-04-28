@@ -13,7 +13,9 @@
     "start-texmaker-vortrag": "ts-node src/vortrag/utils/startTexmakerVortrag.ts",
     "gen-svg-vortrag": "ts-node src/vortrag/utils/genSvgsVortrag.ts",
     "clean-vortrag": "ts-node src/vortrag/utils/cleanVortrag.ts",
-    "gen-vortrag": "ts-node src/vortrag/utils/genVortrag.ts"
+    "gen-vortrag": "ts-node src/vortrag/utils/genVortrag.ts",
+    "gen-svg-handout": "ts-node src/handout/utils/genSvgsHandout.ts",
+    "gen-handout": "ts-node src/handout/utils/genHandout.ts"
   },
   "dependencies": {
     "chalk": "^4.1.0",
